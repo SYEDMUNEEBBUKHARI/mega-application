@@ -20,10 +20,14 @@
 li.vertical{
     background-color:#227087;
 }
+li.vertical:hover{
+    background-color:#227087;
+}
 .menu a, .menu a:link, .menu a:visited, .menu a:focus, span {
     color: #fff;
     text-decoration: none;
 }
+
 .menu a:hover {
     color: #227087;
     text-decoration: none;
@@ -45,17 +49,22 @@ li.vertical{
 .menu > li:hover {
     background-color: #fff;
 }
+/* my design */
+.menu > li.vertical:hover {
+    background-color: #227087;
+}
 /* Megadrop width dropdown */
  .menu > li > .megadrop {
     opacity: 0;
     visibility: hidden;
     position: absolute;
     list-style: none;
-    top: 0px;
-    left: 153px;
-    width: 800px;
+    top: 120px;
+    left: 265px;
+    width: 500px;
     min-height: 100%;
     text-align: left;
+    background-color: white;
     margin-top:30px;
     padding: 0;
     z-index: 99;
@@ -95,12 +104,13 @@ li.vertical{
     font-weight: bold;
     margin: 5px 0 5px 0;
     color: #227087;
-    background: #eee;
+    background: white;
 }
 .menu .col ul li a {
     display: block;
     padding: 0 0 15px 0;
     color: #227087;
+    background-color: white;
 }
 .menu .col ul li a:hover {
     color: #111;
@@ -128,3 +138,60 @@ li.vertical{
 .vertical{
     display:inline-block;
 }
+
+.vertical-menu-item:hover{
+    border-bottom:1px solid #00A29E;
+   color:#122331 !important;
+    position: relative;
+    left:50px;
+    text-align: left;
+ font-size:15px;
+ font-weight:600;
+   
+}
+
+h3.login-title{
+    background-color: white;
+  }
+  .col{
+    background-color: white;
+  }
+.categories {
+    background-color: #ffffff;
+    color: black;
+    width: 268px;
+    height: 50px;
+    margin-left: 34px;
+}
+.category-position {
+    background-color: #ffffff;
+    color: #122331;
+    font-size: 22px;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+    left: -1px;
+}
+ul.menu {
+    background-color: #ffffff;
+    width: 218px;
+    margin-left: 34px;
+}
+
+.first{
+    border-top:1px solid black;
+}
+
+.showchevron{
+    background-color:transparent;
+}
+
+.show{
+    transition:all 0.3s ease;
+}
+
+.hide{
+    
+    margin-top:-600px;
+}
+   
