@@ -1,13 +1,10 @@
 /* globals */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Titillium+Web:wght@400;700&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  background: #122331;
+/* * {
+  background-color: #122331;
 
-  box-sizing: border-box;
-}
+} */
 /* header */
 .header {
   background: transparent;
@@ -40,19 +37,8 @@ a:hover {
 .logo {
   font-size: 2rem;
 }
-.menu-items {
-  display: flex;
-  align-items: center;
-}
-.menu-items li {
-  padding: 0.5rem 1rem;
-  transition: background 0.3s ease-in-out;
-}
-.menu-items li:hover {
-  color:white;
-  font-weight: 700;
-  text-decoration:none;
-}
+
+
 
 /* dropdown */
 .dropdown {
@@ -73,11 +59,7 @@ a:hover {
   top: 0;
   left: 110%;
 }
-.menu-item {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
+
 .dropdown:hover .dropdown-menu {
   top: 34px;
   opacity: 1;
@@ -93,12 +75,13 @@ a:hover {
 .mega-menu {
   position: absolute;
   background: #ffffff;
-  left: 129px;
-  width: 80vw;
+  left: 59px;
+  width: 59vw;
   top: 80px;
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease;
+  z-index:2000;
   
 }
 .mega-menu .content {
@@ -165,18 +148,13 @@ a:hover {
 }
 .col .mega-links li,
 .col .mega-links li a {
-  padding: 0 1rem;
+  padding: 0 1rem;        
   background-color: white;
   color:#00A29E;
 
 
 }
-.menu-items li:hover .mega-menu {
-    top: 65px;
-    opacity: 1;
-    visibility: visible;
-    background-color: white;
-}
+
 .content .col .read-more:hover {
     color: #00A29E ;
 }
@@ -239,3 +217,78 @@ span.img{background-color: white;}
 
 /* vertical drop */
 /* menu > li > .megadrop { */
+
+
+  .site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+    background: #fff;
+  }
+  #components-layout-demo-top .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .ant-row-rtl #components-layout-demo-top .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+  }
+
+
+  
+
+  header.ant-layout-header {
+    height: 64px;
+    padding: 0 50px;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 64px;
+    background: #122331;
+}
+
+
+.ant-layout-header .ant-menu {
+  background: #122331;
+  color: rgba(255, 255, 255, 0.85);
+
+}
+
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
+  color: #00A29E !important;
+  border-bottom: 2px solid #00A29E !important;
+}
+
+
+
+li.ant-menu-item:hover .mega-menu {
+  top: 75px;
+  opacity: 1;
+  visibility: visible;
+  background-color: rgb(255, 0, 0);
+}
+
+.logo{
+ 
+}
+.ant-layout-header .ant-menu {
+  line-height: inherit;
+}
+
+.hide{
+display:none;
+}
+.makeflex{
+  display:flex;
+}
+
+.ant-layout-header .ant-menu {
+  line-height: inherit;
+  margin-left: 9;
+  margin-left: 90px;
+}
+.ant-layout-header .ant-menu {
+  line-height: inherit;
+  margin-top:-2px;
+}

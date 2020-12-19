@@ -1,14 +1,16 @@
 import './App.css';
 import Navbar from "./Components/Navbar/Navbar";
 import Category from "./Components/Category/Category";
+import Slider from "./Components/Slider/Slider";
 
 
 
 function App() {
   return (
-    <div >
+    <div className="bgcolor" >
      <Navbar />
-<Category />
+     <Category />
+
     </div>
   );
 }
