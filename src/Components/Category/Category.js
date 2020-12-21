@@ -1,7 +1,14 @@
 import React, { useEffect, useState } from "react";
+import windowSize from 'react-window-size';
 import {FaHamburger} from "react-icons/fa";
+import {AiOutlineSearch} from "react-icons/ai";
 import "./category.css";
-
+import {HiOutlineShoppingCart} from "react-icons/hi";
+import Slider from "../Slider/Slider";
+import CategoryDraw from "../CategorySidedraw/CategorySideDraw";
+import {FiRefreshCcw} from "react-icons/fi"
+import {HiShoppingCart} from "react-icons/hi";
+import {ImHeart} from "react-icons/im";
 import {FiChevronDown,FiChevronUp} from "react-icons/fi"
 import { Input, Col, Row, Select, InputNumber, DatePicker, AutoComplete, Cascader } from 'antd';
 const { Option } = Select;
@@ -10,7 +17,7 @@ const { Search } = Input;
 
 
 
-function Category(){
+function Category(props){
 let chevup=<FiChevronUp className="showchevron"/>;
 let chevdown=<FiChevronDown className="showchevron"/>;
 const[chevron,setChevron]=useState(false);
@@ -24,15 +31,25 @@ const[show,setShow]=useState('show');
       setShow("hide")
     }
 }
-useEffect(()=>{},[chevron,show]);
+const [windows,setWindow]=useState(props.windowWidth);
+
+     useEffect(()=>{
+  setWindow(props.windowWidth);
+console.log("windows",windows);
+
+     },[windows,props.windowWidth])
             const onSearch=()=>{
+
+            }
+
+            const handleCategoryChange=()=>{
 
             }
 return(
 <>
 
 <div className="makeflex">
-   <div> <div className="categories text-center" onClick={handleCategory}><span className="category-position">Categories {chevron ? chevup : chevdown}</span></div>
+   <div>{ windows>850?  <><div className="categories text-center" onClick={handleCategory}><span className="category-position"> <HiShoppingCart className="cate-icons" />Categories {chevron ? chevup : chevdown}</span></div>
 
       <ul className={`menu ${show}`}>
         <li className="vertical first"><a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon"/>  BURGERS</a>
@@ -76,9 +93,63 @@ return(
       </div>
 
     </li>
+        <li className="vertical "> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
 
+      <div className="megadrop">
 
-    <li className="vertical "> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
+      </div>
+
+    </li>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
+
+      <div className="megadrop">
+
+      </div>
+
+    </li>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
+
+      <div className="megadrop">
+
+      </div>
+
+    </li>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
+
+<div className="megadrop">
+
+</div>
+
+</li>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
+
+<div className="megadrop">
+
+</div>
+
+</li>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
+
+<div className="megadrop">
+
+</div>
+
+</li>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
+
+<div className="megadrop">
+
+</div>
+
+</li>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
+
+<div className="megadrop">
+
+</div>
+
+</li>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
 
       <div className="megadrop">
 
@@ -86,43 +157,44 @@ return(
 
     </li>
 
-    <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
-
-      <div className="megadrop">
-
-      </div>
-
-    </li>
-    <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
-
-      <div className="megadrop">
-
-      </div>
-
-    </li>
-
-  </ul>
+      </ul>
+      </>:  <CategoryDraw />}
   </div>
 
 <div className="category-flex">
-<Input.Group compact>
-      <Select defaultValue="Categories" style={{ width: '20%' }}>
-        <Option value="Sign Up">Sign Up</Option>
-        <Option value="Sign In">Sign In</Option>
-      </Select>
-      <Search placeholder="input search text" onSearch={onSearch} enterButton />
-    </Input.Group>
+{windows>850?  <div> <Select
+    labelInValue
+    defaultValue={{ value: 'Categories' }}
+    style={{ width: 120 }}
+    onChange={handleCategoryChange}
+  >
+    <Option value="jack">Jack (100)</Option>
+    <Option value="lucy">Lucy (101)</Option>
+  </Select></div>:""}
+  <div>
+<form className="search-form">
+ {windows>850? 
+ <> <input id="search" type="search" className="search-input" placeholder="Enter search terms..." />
+  <button className="search-button">Search</button></>
+  :""}
+</form>
+</div>
     </div>
-<div>M</div>
-<div>M</div>
+    <div className="make-flex">
+<div className={windows>850 ? "flex-refresh":"hide"}><FiRefreshCcw className="icon-refresh" /></div>
+<div className={windows>850 ? "flex-refresh-heart":"hide"}><ImHeart className="icon-refresh" /></div>
+<div className="shopping"><HiOutlineShoppingCart  className="shop-icon"/> {windows>850 ? <>My Cart <span>-$192.0</span></>:""}</div>
 
+</div>
 
 
 
 </div>
-
+<div  >
+ <Slider />
+ </div>
 </>
 );
 }
 
-export default Category;
+export default windowSize(Category);

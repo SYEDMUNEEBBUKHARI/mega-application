@@ -7,28 +7,28 @@ import {
   } from '@ant-design/icons';
 import { Drawer, Button, Radio, Space } from 'antd';
 import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
-import "./NavDraw.css";
+import "./categorySide.css";
 const { SubMenu } = Menu;
 const { Header, Sider, Content } = Layout;
-function NavDraw(){
+function CategoryDraw(){
 
     const[visible,setVisible]=useState(false);
-    const[placement,setPlacement]=useState('right');
-    const[siteLayout,setSiteLayout]=useState('ant-space');
+    const[placement,setPlacement]=useState('left');
+    const[siteLayout,setSiteLayout]=useState('.ant-space');
 
     const showDrawer = () => {
         setVisible(true);
-    setCollapsed(!collapsed);
+    setCollapsedM(!collapsedCategory);
     
       };
     
      const onClose = () => {
         setVisible(false);
-    setCollapsed(!collapsed);
+    setCollapsedM(!collapsedCategory);
 
 
       };
-    const [collapsed,setCollapsed]=useState(false)
+    const [collapsedCategory,setCollapsedM]=useState(false)
 
 useEffect((
 )=>{
@@ -40,12 +40,9 @@ console.log("Mask",a)
     
 return(
 <>
-<div className="toggle-flex">
-  <div className="spacer"></div>
-<div>
 <Space >
 <Header className={siteLayout} style={{ padding: 0 }}>
-            {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
+            {React.createElement(collapsedCategory ? MenuUnfoldOutlined : MenuFoldOutlined, {
               className: 'trigger',
               onClick: showDrawer,
             })}
@@ -66,13 +63,13 @@ return(
             defaultOpenKeys={['sub1']}
             style={{ height: '100%' }}
           >
-            <SubMenu key="sub1" icon={<UserOutlined />} title="HOME">
+            <SubMenu key="sub0" icon={<UserOutlined />} title="HOME">
               <Menu.Item key="1">option1</Menu.Item>
               <Menu.Item key="2">option2</Menu.Item>
               <Menu.Item key="3">option3</Menu.Item>
               <Menu.Item key="4">option4</Menu.Item>
             </SubMenu>
-            <SubMenu key="sub2" icon={<LaptopOutlined />} title="FEATURES">
+            <SubMenu key="sub1" icon={<LaptopOutlined />} title="FEATURES">
               <Menu.Item key="5">option5</Menu.Item>
               <Menu.Item key="6">option6</Menu.Item>
               <Menu.Item key="7">option7</Menu.Item>
@@ -84,19 +81,19 @@ return(
               <Menu.Item key="7">option7</Menu.Item>
               <Menu.Item key="8">option8</Menu.Item>
             </SubMenu>
-            <SubMenu key="sub1" icon={<UserOutlined />} title="CATEGORIES">
+            <SubMenu key="sub3" icon={<UserOutlined />} title="CATEGORIES">
               <Menu.Item key="1">option1</Menu.Item>
               <Menu.Item key="2">option2</Menu.Item>
               <Menu.Item key="3">option3</Menu.Item>
               <Menu.Item key="4">option4</Menu.Item>
             </SubMenu>
-            <SubMenu key="sub1" icon={<UserOutlined />} title="ACCESSORIES">
+            <SubMenu key="sub4" icon={<UserOutlined />} title="ACCESSORIES">
               <Menu.Item key="1">option1</Menu.Item>
               <Menu.Item key="2">option2</Menu.Item>
               <Menu.Item key="3">option3</Menu.Item>
               <Menu.Item key="4">option4</Menu.Item>
             </SubMenu>
-            <SubMenu key="sub2" icon={<LaptopOutlined />} title="BLOG">
+            <SubMenu key="sub5" icon={<LaptopOutlined />} title="BLOG">
               <Menu.Item key="5">option5</Menu.Item>
               <Menu.Item key="6">option6</Menu.Item>
               <Menu.Item key="7">option7</Menu.Item>
@@ -104,10 +101,8 @@ return(
             </SubMenu>
           </Menu>
         </Drawer>
-       </div>
-        </div>
 </>
 );
 }
 
-export default NavDraw;
+export default CategoryDraw;

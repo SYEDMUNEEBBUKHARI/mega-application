@@ -1,14 +1,14 @@
 .site-layout-content {
     min-height: 280px;
     padding: 24px;
-    background: rgb(255, 0, 0);
+    background: rgb(0, 38, 255);
   }
   #components-layout-demo-top .logo {
     float: left;
     width: 120px;
     height: 31px;
     margin: 16px 24px 16px 0;
-    background: rgb(255, 13, 13);
+    background: rgb(255, 13, 235);
   }
   .ant-row-rtl #components-layout-demo-top .logo {
     float: right;
@@ -17,3 +17,28 @@
   .logo{
       width:100px;
   }
+  .ant-carousel .slick-dots {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 1px;
+    z-index: 15;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding-left: 0;
+    list-style: none;
+}
+
+
+.flex-slider{
+  display:flex;
+}
+.slide-image{
+  height:222px;
+  width:350px;
+  margin-left: 20px;
+}

@@ -10,7 +10,7 @@ function App() {
     <div className="bgcolor" >
      <Navbar />
      <Category />
-
+{/* <Slider /> */}
     </div>
   );
 }

@@ -156,17 +156,21 @@ h3.login-title{
   .col{
     background-color: white;
   }
+  .cate-icons{
+      font-size:25px;
+      margin-right:10px;
+  }
 .categories {
-    background-color: #ffffff;
-    color: black;
+    background-color: #00A29E;
+    color: rgb(255, 255, 255);
     width: 268px;
     height: 50px;
     margin-left: 34px;
     margin-top:50px;
 }
 .category-position {
-    background-color: #ffffff;
-    color: #122331;
+    background-color: #00A29E;
+    color: #ffffff;
     font-size: 22px;
     font-weight: 500;
     position: relative;
@@ -177,6 +181,8 @@ ul.menu {
     background-color: #ffffff;
     width: 218px;
     margin-left: 34px;
+    position: absolute;
+    z-index:99;
 }
 
 .first{
@@ -185,6 +191,11 @@ ul.menu {
 
 .showchevron{
     background-color:transparent;
+    font-size:20px;
+    position:relative;
+    top:-3px;
+    left:10px;
+
 }
 
 .show{
@@ -231,7 +242,8 @@ ul.menu {
   .category-flex{
       position:relative;
       top:60px;
-      left:20px;
+      left: 170px;
+      display:flex;
   }
   .ant-input-group.ant-input-group-compact > *:first-child, .ant-input-group.ant-input-group-compact > .ant-select:first-child > .ant-select-selector, .ant-input-group.ant-input-group-compact > .ant-select-auto-complete:first-child .ant-input, .ant-input-group.ant-input-group-compact > .ant-cascader-picker:first-child .ant-input {
     border-top-left-radius: 2px;
@@ -248,54 +260,116 @@ ul.menu {
     /* margin-right: 100px; */
 }
 /* select */
-.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child {
-    left: -1px;
-    padding: 0;
-    border: 0;
+
+
+
+.flex-refresh{
+position:relative;
+top:65px;
+}
+.flex-refresh-heart{
+    position:relative;
+    top:65px;
+    left: 46px;
+    }
+    
+.icon-refresh{
+color:white;
+font-size:35px;
+
+}
+
+
+.shopping{
+position:relative;
+top:62px;
+left:90px;
+color: #00A29E !important;
+font-size:19px;
+}
+
+
+.shop-icon{
+    color:white;
+    font-size:35px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+.search-form {
+    /* we'll re-use this number, so DRYing up */
+    --searchButtonWidth: 75px;
+  
+    overflow: hidden;
     position: relative;
-    left: -152px;
-    height: 0px;
+  }
+  
+  .search-input {
+    /* take full width of form */
+    width: 100%;
+  }
+  
+  .search-button {
+    position: absolute; 
+    /* push outside the form, hiding it */
+    left: 100%;
+    width: var(--searchButtonWidth);
+  }
+
+  .search-input:not(:placeholder-shown) ~ .search-button {
+    /* pull back the negative value of the width */
+    transform: translateX(calc(-1 * var(--searchButtonWidth)));
+  }
+  .search-button {
+    position: absolute; 
+    left: 100%;
+    width: var(--searchButtonWidth);
+    /* animate it */
+    transition: 0.2s;
+  }
+  a, area, button, [role='button'], input:not([type='range']), label, select, summary, textarea {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    height: 45px;
+    width: 385px;
 }
 
-
-.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button {
-    padding-top: 0;
-    /* width: 100px; */
-    padding-bottom: 0;
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector {
     position: relative;
-    left: 2px;
-    height: 38px;
-    border-radius: 0 2px 2px 0;
-    /* margin-right: 100px; */
+    background-color: #ffffff !important;
+    border: 1px solid #d9d9d9;
+    color:#000000 !important;
+    border-radius: 2px;
+    height: 45px !important;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-.ant-input-group.ant-input-group-compact > .ant-select > .ant-select-selector, .ant-input-group.ant-input-group-compact > .ant-select-auto-complete .ant-input, .ant-input-group.ant-input-group-compact > .ant-cascader-picker .ant-input, .ant-input-group.ant-input-group-compact > .ant-input-group-wrapper .ant-input {
-    border-right-width: 1px;
-    border-radius: 0;
-    width: 300px;
-    height: 38px;
+.menu a, .menu a:link, .menu a:visited, .menu a:focus, span {
+    color: #fff;
+    text-decoration: none;
+    width: 217px;
+    wisth: 20px;
+}
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item, .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    padding-right: 18px;
+    position: relative;
+    font-size: 16px;
+    top: 7px;
+}
+.search-input:not(:placeholder-shown) ~ .search-button {
+    transform: translateX(calc(-1 * var(--searchButtonWidth)));
+    color: #ffffff ;
+    background-color: #026d6b ;
+}
+.make-flex{
+    display:flex;
+    margin-left: 258px;
 }
 
-.ant-input-group.ant-input-group-compact > .ant-input-group-wrapper .ant-input:placeholder-shown{
-
-    margin-left:100px;
-}
-.ant-input-group.ant-input-group-compact > .ant-input-group-wrapper .ant-input:placeholder-shown {
-    margin-left: 100px;
-    margin-top: -38px;
-}
-.ant-input-group.ant-input-group-compact {
-    display: block;
-    z-index: 90;
-}
-
-
-.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button {
-    /* margin-top: -27px; */
-    padding-top: 0;
-    padding-bottom: 0;
-    position: absolute;
-    top: -38px;
-    /* height: 37px; */
-    left: -123px;
-    border-radius: 0 2px 2px 0;
+.hide{
+    display:none;
 }
