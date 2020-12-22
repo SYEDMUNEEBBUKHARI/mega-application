@@ -1,0 +1,36 @@
+.discount-image img{
+    width: 100%;
+    height: 180px;
+}
+.item-left-img img{
+    width: 70px;
+}
+.item-title a{
+    font-size: 13px;
+}
+
+.latest-products{
+    color: black;
+    font-weight: 700;
+}
+.overline{
+    color: lightgray !important;
+    text-decoration-line:line-through;
+    font-size: 12px;
+    position: relative;
+    left: -80px;
+}
+
+.ant-card-cover{
+    width: 130px;
+    height: 175px;
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+.tabs-price{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
