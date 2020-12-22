@@ -32,7 +32,10 @@
     padding-left: 0;
     list-style: none;
 }
-
+.handle-row{
+  position: relative;
+  top:50px;
+}
 
 .flex-slider{
   display:flex;

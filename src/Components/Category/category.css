@@ -373,3 +373,54 @@ font-size:19px;
 .hide{
     display:none;
 }
+
+
+
+@media(min-width: 320px) and (max-width: 375px){
+   
+
+
+  }
+    
+  
+  
+    @media(min-width: 375px) and (max-width: 425px){
+    
+
+
+    }
+    @media(min-width: 426px) and (max-width: 768px){
+        
+  }
+    @media(min-width: 769px) and (max-width: 1024px){
+    
+      
+  }
+    @media(min-width: 1025px) and (max-width: 1440px){
+    
+    .shopping{
+        position:relative;
+        top:62px;
+        left:26px;
+        color: #00A29E !important;
+        font-size:15px;
+    }
+    .flex-refresh-heart {
+        position: relative;
+        top: 65px;
+        left: 9px;
+    }
+    .flex-refresh {
+        position: relative;
+        top: 65px;
+        left: -16px;
+    }
+  }
+  
+  
+  
+  @media(min-width: 1441px) and (max-width: 2560px){
+    
+    
+        
+  }

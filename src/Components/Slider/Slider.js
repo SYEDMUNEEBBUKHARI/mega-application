@@ -18,8 +18,9 @@ function Slider() {
     
     return (
        <>
-       <Row>
-      <Col span={16}>
+       <Row className="handle-row">
+         
+      <Col span={10} offset={4}>
 
 
       <Carousel autoplay >
@@ -41,7 +42,7 @@ function Slider() {
   </Carousel>
 
       </Col>
-      <Col span={8}>
+      <Col span={6}>
         <Row gutter={[16, 16,2]}>
           <Col span={8} >   
            <img src={Slider1}  className="slide-image" alt="not found" />
@@ -55,6 +56,7 @@ function Slider() {
           
        </Row>
      </Col>
+     <col span={4}></col>
   </Row>
        
         </>
