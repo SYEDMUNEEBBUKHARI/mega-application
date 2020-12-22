@@ -4,6 +4,8 @@ import { Carousel } from 'antd';
 import Slider1 from "../../Assets/images/slider-1.jpg";
 import Slider2 from "../../Assets/images/slider-1.jpg";
 import Slider3 from "../../Assets/images/slider-1.jpg";
+import windowSize from 'react-window-size';
+
 
 import './slider.css';
 const contentStyle = {
@@ -14,35 +16,35 @@ const contentStyle = {
     textAlign: 'center',
     background: 'red',
   };
-function Slider() {
+function Slider(props) {
     
     return (
        <>
        <Row className="handle-row">
          
-      <Col span={10} offset={4}>
+      <Col span={props.windowWidth<770 ? 24:11} offset={props.windowWidth<770 ? 0:2}>
 
 
       <Carousel autoplay >
     <div>
-      <img src={Slider1}  style={contentStyle}  alt="not found" />
+      <img src={Slider1}  style={contentStyle}  className="slide-image-first" alt="not found" />
     </div>
     <div>
-    <img src={Slider2}  style={contentStyle} alt="not found" />
+    <img src={Slider2}  style={contentStyle} className="slide-image-first" alt="not found" />
 
     </div>
     <div>
-    <img src={Slider3}  style={contentStyle} alt="not found" />
+    <img src={Slider3}  style={contentStyle} className="slide-image-first" alt="not found" />
 
     </div>
     <div>
-    <img src={Slider1}  style={contentStyle} alt="not found" />
+    <img src={Slider1}  style={contentStyle} className="slide-image-first" alt="not found" />
 
     </div>
   </Carousel>
 
       </Col>
-      <Col span={6}>
+      <Col span={props.windowWidth>770 && 6} className={props.windowWidth<770 && "hidecol"}>
         <Row gutter={[16, 16,2]}>
           <Col span={8} >   
            <img src={Slider1}  className="slide-image" alt="not found" />
@@ -65,4 +67,4 @@ function Slider() {
 
 
 
-export default Slider
+export default windowSize(Slider);

@@ -385,15 +385,104 @@ font-size:19px;
   
   
     @media(min-width: 375px) and (max-width: 425px){
-    
+        .shopping {
+            position: relative;
+            top: 3px;
+            left: -80px;
+            color: #00A29E !important;
+            font-size: 28px;
+        }
+        .shop-icon {
+            color: white;
+            font-size: 72px;
+            background-color: darkcyan;
+            margin-right: 0px;
+            border-radius: 50px;
+            padding: 5px;
+        }
+        header.ant-layout-header {
+            height: 57px;
+            padding: 0 50px;
+            margin-top: 38px;
+            color: rgba(255, 255, 255, 0.85);
+            line-height: 64px;
+            background: #122331;
+        }
 
 
     }
     @media(min-width: 426px) and (max-width: 768px){
         
+        .shopping {
+            position: relative;
+            top: 3px;
+            left: 99px;
+            color: #00A29E !important;
+            font-size: 28px;
+        }
+        .shop-icon {
+            color: white;
+            font-size: 72px;
+            background-color: darkcyan;
+            margin-right: 0px;
+            border-radius: 50px;
+            padding: 5px;
+        }
   }
     @media(min-width: 769px) and (max-width: 1024px){
-    
+        .categories {
+            background-color: #00A29E;
+            color: rgb(255, 255, 255);
+            width: 224px;
+            height: 50px;
+            margin-left: 34px;
+            margin-top: 50px;
+        }
+        .icon-refresh {
+            color: white;
+            font-size: 24px;
+        }
+        .make-flex {
+            display: flex;
+            margin-left: 68px;
+        }
+        flex-refresh-heart {
+            position: relative;
+            top: 65px;
+            left: 28px;
+        }
+        .shopping {
+            position: relative;
+            top: 62px;
+            left: 54px;
+            color: #00A29E !important;
+            font-size: 15px;
+        }
+        .ant-layout-header .ant-menu {
+            line-height: inherit;
+            width: 443px;
+        }
+        .shop-icon {
+            color: white;
+            font-size: 28px;
+            margin-right: 20px;
+        }
+        .menu a, .menu a:link, .menu a:visited, .menu a:focus, span {
+            color: #fff;
+            text-decoration: none;
+            width: 173px;
+        }
+        .category-flex {
+            position: relative;
+            top: 60px;
+            left: 44px;
+            display: flex;
+        }
+        a, area, button, [role='button'], input:not([type='range']), label, select, summary, textarea {
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            width: 241px;
+        }
       
   }
     @media(min-width: 1025px) and (max-width: 1440px){
@@ -419,8 +508,5 @@ font-size:19px;
   
   
   
-  @media(min-width: 1441px) and (max-width: 2560px){
-    
-    
-        
-  }
+  
+ 

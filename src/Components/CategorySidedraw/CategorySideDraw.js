@@ -43,7 +43,7 @@ return(
 <Space >
 <Header className={siteLayout} style={{ padding: 0 }}>
             {React.createElement(collapsedCategory ? MenuUnfoldOutlined : MenuFoldOutlined, {
-              className: 'trigger',
+              className: 'trigger1',
               onClick: showDrawer,
             })}
           </Header>
