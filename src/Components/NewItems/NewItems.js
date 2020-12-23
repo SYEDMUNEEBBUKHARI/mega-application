@@ -1,4 +1,5 @@
 import React from 'react';
+import './NewItems.css';
 import pastrami from "../../Assets/images/1.jpg";
 import Carousel from "react-elastic-carousel";
 import { Tabs, Card } from 'antd';
@@ -22,10 +23,10 @@ const breakPointsTabs = [
 function NewItems() {
     return (
         <React.Fragment>
-        <h3 class="modtitle"><span className="daily-deals">NEW ITEMS</span></h3>
+        <h3 class="new-title"><span className="new-items">NEW ITEMS</span></h3>
                     <Tabs defaultActiveKey="1" centered onChange={callback}>
                     <TabPane tab="Bedroom" key="1">
-                    <Carousel style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPointsTabs}>
+                    <Carousel className="items-slider" style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPointsTabs}>
                     <div className="row outline ml-3">
                     <div className="item-left">
                         <Card

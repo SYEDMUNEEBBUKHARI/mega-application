@@ -28,7 +28,7 @@ function LatestProducts() {
                 <div className="col-md-2">
                 <h5 class="modtitle"><span className="latest-products">Latest Products</span></h5>
 
-                <Carousel style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPoints}>
+                <Carousel className="latest-products" style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPoints}>
                         <div className="row outline">
                             <div className="item-left-img col-lg-5 col-md-5 col-sm-5 col-xs-12">
                                 <img src={product1} alt=""/>
@@ -240,7 +240,7 @@ function LatestProducts() {
 
 
                 <h5 class="modtitle"><span className="latest-products">Latest Bolgs</span></h5>
-                <Carousel style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPoints}>
+                <Carousel className="latest-products" style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPoints}>
                         <div className="row outline no-gutters">
                             <div className="item-left">
                                 <img className="mb-3" alt="example" src={deco} />
@@ -297,7 +297,7 @@ function LatestProducts() {
                 {/* top rated */}
                 <h5 class="modtitle"><span className="latest-products">TOP RATED</span></h5>
 
-                <Carousel style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPoints}>
+                <Carousel className="latest-products" style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPoints}>
                         <div className="row outline">
                             <div className="item-left-img col-lg-5 col-md-5 col-sm-5 col-xs-12">
                                 <img src={product1} alt=""/>

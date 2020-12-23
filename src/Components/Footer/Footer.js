@@ -8,8 +8,8 @@ function Footer() {
     return (
             <>
                 <section className="newsletter_area">
-                    <div className="container">
-                        <div className="row">
+                    <div className="container-fluid">
+                        <div className="row mx-3">
                             <div className="col-lg-3 col-md-6 col-sm-12">
                                 <div className="newsletter_inner">
                                     <h5 style={{color: 'white',}}>Subscribe Our Newsletter</h5>
@@ -44,8 +44,8 @@ function Footer() {
 
 
                     <footer class="footer_area section_gap_top">
-		                <div class="container">
-			<div class="row footer_inner">
+		                <div class="container-fluid">
+			<div class="row footer_inner mx-3">
 				<div class="col-lg-3 col-sm-6">
 					<aside class="f_widget ab_widget">
 						<a href="#"><img style={{marginBottom: '20px',}} src={logofooter} alt="image" /></a>
