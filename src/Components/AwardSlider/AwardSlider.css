@@ -1,0 +1,9 @@
+.item-center{
+    text-align: center;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.item-center:hover{
+    opacity: 1;
+}
