@@ -4,6 +4,9 @@ import Category from "./Components/Category/Category";
 import DailyDeals from "./Components/DailyDeals/DailyDeals";
 import Slider from "./Components/Slider/Slider";
 import LatestProducts from "./Components/LatestProducts/LatestProducts";
+import Footer from "./Components/Footer/Footer";
+
+
 
 
 function App() {
@@ -13,6 +16,7 @@ function App() {
      <Category />
      <DailyDeals />
      <LatestProducts />
+     <Footer />
 {/* <Slider /> */}
     </div>
   );

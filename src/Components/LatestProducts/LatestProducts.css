@@ -34,3 +34,62 @@
     font-size: 18px;
     text-align: center;
 }
+
+.ant-card-meta-detail{
+    text-align: center;
+}
+
+.block-infos{
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    padding: 0 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.block-infos li:first-child {
+    border-top: none;
+}
+.block-infos li {
+    display: inline-block;
+    width: 100%;
+}
+
+.block-infos li .inner {
+    padding: 20px 0;
+}
+.info-cont{
+    border-bottom: 1px solid lightgray;
+}
+.info-cont p{
+    color: #999;
+    line-height: 100%;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.info-cont svg{
+    font-size: 32px;
+    padding-top: 8px;
+    width: 18px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.info-cont a{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #222;
+}
+.left-brand img{
+    width: 100%;
+    height: 100px;
+}
+.deco-descriptions small{
+    font-weight: bold;
+    font-size: 12px !important;
+}
+
+.deco-descriptions b{
+    font-size: 10px !important;
+    color: gray !important;
+}

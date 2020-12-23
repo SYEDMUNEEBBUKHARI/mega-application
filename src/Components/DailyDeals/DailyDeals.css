@@ -550,3 +550,23 @@ section {
     right: 22px;
     top: -91px;
 }
+
+.rec-dot{
+    margin: 0 5px !important;
+    width: 30px !important;
+    height: 6px !important;
+    padding: 0 !important;
+    transition: all 0.3s ease 0s !important;
+    border-radius: 3px !important;
+    float: none !important;
+    display: inline-block !important;
+}
+
+.rec-dot:active{
+    background: #ff3c20 !important;
+    box-shadow: none !important;
+}
+.cJeRRR{
+    background: #ff3c20 !important;
+    box-shadow: none !important;
+}
