@@ -540,12 +540,12 @@ section {
 .left-draw-image{
     height: 300px;
 }
-.rec-arrow-left{
+.daily-deals-slider .rec-arrow-left{
     top: -91px;
     position: absolute;
     right: 80px;
 }
-.rec-arrow-right{
+.daily-deals-slider .rec-arrow-right{
     position: absolute;
     right: 22px;
     top: -91px;

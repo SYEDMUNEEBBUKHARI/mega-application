@@ -23,8 +23,8 @@ const breakPoints = [
 
 function LatestProducts() {
     return (
-        <div className="container">
-          <div className="row mt-4">
+        <div className="container-fluid">
+          <div className="row mt-4 mx-2">
                 <div className="col-md-2">
                 <h5 class="modtitle"><span className="latest-products">Latest Products</span></h5>
 

@@ -2,7 +2,6 @@ import React from 'react';
 import './DailyDeals.css';
 import Carousel from "react-elastic-carousel";
 import banner4 from "../../Assets/images/banner4.jpg";
-
 import product1 from "../../Assets/images/chair.jpg";
 import prdouct2 from "../../Assets/images/2.jpg";
 import product3 from "../../Assets/images/3.jpg";
@@ -19,17 +18,16 @@ const breakPoints = [
   
  function DailyDeals() {
     return (
-        <div className="container">
-            <div className="row">
+        <div className="container-fluid">
+            <div className="row mt-5 mx-2">
                 <div className="col-md-2">
-                    <div className="card mt-3 ml-4">
-                    <img className="left-draw-image" src={banner4} alt="Card image cap" />
-                
+                    <div className="card mt-5">
+                        <img className="left-draw-image" src={banner4} alt="Card image cap" />
                     </div>
                 </div>
                 <div className="col-md-10">
                 <h3 class="modtitle"><span className="daily-deals">Daily Deals</span></h3>
-                <Carousel style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPoints}>
+                <Carousel className="daily-deals-slider" style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPoints}>
                     <div className="row outline">
                         <div className="item-left col-lg-6 col-md-5 col-sm-5 col-xs-12">
                             <img src={product1} alt=""/>

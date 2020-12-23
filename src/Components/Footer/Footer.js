@@ -138,7 +138,9 @@ function Footer() {
 
 
                 <div class="col-lg-12 col-xs-12 text-center">
+                    <div className="payment-method">   
                         <img src={payment} alt="imgpayment" />
+                    </div>
                 </div>
                 
 			</div>
