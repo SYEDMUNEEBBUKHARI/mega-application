@@ -19,7 +19,7 @@ const breakPoints = [
   
  function DailyDeals() {
     return (
-        <div className="container">
+        <div className="container daily-deals ">
             <div className="row">
                 <div className="col-md-2">
                     <div className="card mt-3 ml-4">

@@ -61,6 +61,8 @@ header.ant-layout-header {
     color: rgba(255, 255, 255, 0.85);
     line-height: 64px;
     background: transparent !important; 
+    z-index: 1000;
+
 }
 .toggle-flex{
     display: flex;
@@ -70,7 +72,6 @@ header.ant-layout-header {
 .spacer{
     width:400px;
 }
-
 
 
 
