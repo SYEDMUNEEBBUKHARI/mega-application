@@ -7,3 +7,7 @@
 .item-center:hover{
     opacity: 1;
 }
+
+.award-slider .rec-pagination{
+    display: none !important;
+  }

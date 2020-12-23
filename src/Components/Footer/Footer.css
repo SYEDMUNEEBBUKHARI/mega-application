@@ -135,3 +135,12 @@ footer .copyright a {
     font-size: 9px !important;
     margin: -3px 5px 0 0;
 }
+
+
+
+
+@media screen and (max-width: 500px){
+    .payment-method img{
+        width: 100%;
+    }
+}

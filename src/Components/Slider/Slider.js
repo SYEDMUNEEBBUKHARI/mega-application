@@ -20,9 +20,11 @@ function Slider(props) {
     
     return (
        <>
-       <Row className="handle-row">
+       <div className="container-fluid">
+          <Row className="handle-row ml-5">
          
-      <Col span={props.windowWidth<770 ? 24:11} offset={props.windowWidth<770 ? 0:2}>
+      {/* <Col span={props.windowWidth<770 ? 24:11} offset={props.windowWidth<770 ? 0:2}> */}
+      <Col span={props.windowWidth<770 ? 24:16}>
 
 
       <Carousel autoplay >
@@ -60,7 +62,7 @@ function Slider(props) {
      </Col>
      <col span={4}></col>
   </Row>
-       
+      </div>
         </>
     )
 }

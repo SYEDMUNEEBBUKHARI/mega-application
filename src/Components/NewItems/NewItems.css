@@ -1,0 +1,21 @@
+.new-items{
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    background-color: #232f3e;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    padding: 11px 20px;
+    position: relative;
+    bottom: -52px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .new-title{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.items-slider .rec-pagination{
+  display: none !important;
+}

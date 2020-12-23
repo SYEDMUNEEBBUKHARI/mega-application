@@ -28,8 +28,8 @@ function callback(key) {
 
 function AwardSlider() {
     return (
-        <div className="container">
-            <Carousel style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPointsTabs}>
+        <div className="container-fluid mt-4 mb-5">
+            <Carousel className="award-slider" style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPointsTabs}>
                     <div className="row outline">
                         <div className="item-center">
                             <img src={b1} alt=""/>

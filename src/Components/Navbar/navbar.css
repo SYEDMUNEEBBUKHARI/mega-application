@@ -188,10 +188,7 @@ a:hover {
     display:flex;
     justify-content: flex-end;
     color:white;
-    position: relative;
-    right:30px;
-    top:10px;
-
+    background-color: #122331;
 }
 .flex-item{
     margin-right:10px;
@@ -238,14 +235,13 @@ span.img{background-color: white;}
   }
 
 
-  
 
   header.ant-layout-header {
     height: 64px;
     padding: 0 50px;
     color: rgba(255, 255, 255, 0.85);
     line-height: 64px;
-    background: #122331;
+    background: #122331 !important;
 }
 
 

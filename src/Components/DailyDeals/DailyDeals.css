@@ -6,10 +6,6 @@
     -ms-flex: 1 1 auto;
     flex: 1 1 auto
 }
-.daily-deals{
-    margin-top:500px;
-    background-color:white;
-}
 
 @media (max-width:991.98px) {
     .padding {
@@ -544,12 +540,12 @@ section {
 .left-draw-image{
     height: 300px;
 }
-.rec-arrow-left{
+.daily-deals-slider .rec-arrow-left{
     top: -91px;
     position: absolute;
     right: 80px;
 }
-.rec-arrow-right{
+.daily-deals-slider .rec-arrow-right{
     position: absolute;
     right: 22px;
     top: -91px;

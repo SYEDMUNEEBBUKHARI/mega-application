@@ -93,3 +93,16 @@
     font-size: 10px !important;
     color: gray !important;
 }
+
+.latest-products .rec-arrow-left{
+    top: -91px;
+    position: absolute;
+    right: 80px;
+    display: none;
+}
+.latest-products .rec-arrow-right{
+    top: -91px;
+    position: absolute;
+    right: 80px;
+    display: none;
+}

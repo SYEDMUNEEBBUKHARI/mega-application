@@ -17,19 +17,20 @@ const breakPointsTabs = [
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2, itemsToScroll: 2 },
     { width: 768, itemsToShow: 4 },
-    { width: 1200, itemsToShow: 4 }
+    { width: 1200, itemsToShow: 4, }
   ];
 
 function TrendingItems() {
     return (
         <React.Fragment>
-        <h3 class="modtitle"><span className="daily-deals">Trending Items</span></h3>
+        <h3 class="trend-title"><span className="trending-items">Trending Items</span></h3>
                     <Tabs defaultActiveKey="1" centered onChange={callback}>
                     <TabPane tab="Bedroom" key="1">
-                    <Carousel style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPointsTabs}>
+                    <Carousel className="trending-slider" style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPointsTabs}>
                     <div className="row outline ml-3">
                     <div className="item-left">
                         <Card
+                            hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
                             cover={ <img className="image" src={pastrami} alt=""/>}
                         >
