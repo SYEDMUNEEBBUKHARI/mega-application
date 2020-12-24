@@ -1,24 +1,32 @@
 import './App.css';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Home from "./Components/Mainpage/MainPage";
 import Navbar from "./Components/Navbar/Navbar";
-import Category from "./Components/Category/Category";
-import DailyDeals from "./Components/DailyDeals/DailyDeals";
-import Slider from "./Components/Slider/Slider";
-import LatestProducts from "./Components/LatestProducts/LatestProducts";
 import Footer from "./Components/Footer/Footer";
+import Blog from "./Components/Blog/Blog"
+import Category from "./Components/Category/Category";
 
 
 
 
 function App() {
   return (
-    <div className="bgcolor" >
-     <Navbar />
+   <>
+   
+  <BrowserRouter>
+  <Navbar />
      <Category />
-     <DailyDeals />
-     <LatestProducts />
-     <Footer />
-{/* <Slider /> */}
-    </div>
+    <Switch>
+      <Route exact path="/"  Component={Home}/>
+      <Route exact path="/blog"  Component={Blog}/>
+
+    </Switch>
+    
+
+  </BrowserRouter>
+  <Footer />
+
+   </>
   );
 }
 

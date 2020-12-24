@@ -9,11 +9,39 @@ import CategoryDraw from "../CategorySidedraw/CategorySideDraw";
 import {FiRefreshCcw} from "react-icons/fi"
 import {HiShoppingCart} from "react-icons/hi";
 import {ImHeart} from "react-icons/im";
-import {FiChevronDown,FiChevronUp} from "react-icons/fi"
+import {FiChevronDown,FiChevronUp} from "react-icons/fi";
 import { Input, Col, Row, Select, InputNumber, DatePicker, AutoComplete, Cascader } from 'antd';
+
+import { Menu, Dropdown } from 'antd';
+import { DownOutlined } from '@ant-design/icons';
+
 const { Option } = Select;
 
 const { Search } = Input;
+
+
+
+const menu = (
+  <Menu>
+    <Menu.Item>
+      <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">
+        1st menu item
+      </a>
+    </Menu.Item>
+    <Menu.Item>
+      <a target="_blank" rel="noopener noreferrer" href="http://www.taobao.com/">
+        2nd menu item
+      </a>
+    </Menu.Item>
+    <Menu.Item>
+      <a target="_blank" rel="noopener noreferrer" href="http://www.tmall.com/">
+        3rd menu item
+      </a>
+    </Menu.Item>
+    <Menu.Item danger>a danger item</Menu.Item>
+  </Menu>
+);
+
 
 
 
@@ -183,7 +211,12 @@ return(
     <div className="make-flex">
 <div className={windows>850 ? "flex-refresh":"hide"}><FiRefreshCcw className="icon-refresh" /></div>
 <div className={windows>850 ? "flex-refresh-heart":"hide"}><ImHeart className="icon-refresh" /></div>
-<div className="shopping"><HiOutlineShoppingCart  className="shop-icon"/> {windows>850 ? <>My Cart <span>-$192.0</span></>:""}</div>
+<div className="shopping">
+  <Dropdown overlay={menu} placement="bottomCenter">
+    <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
+    <HiOutlineShoppingCart  className="shop-icon"/>
+    </a>
+  </Dropdown> {windows>850 ? <>My Cart <span>-$192.0</span></>:""}</div>
 
 </div>
 

@@ -1,7 +1,7 @@
 import React,{useEffect,useState} from "react";
 import windowSize from 'react-window-size';
 import NavDraw from "../NavsideDraw/NavDraw";
-
+import {NavLink}  from "react-router-dom"
 import "./navbar.css";
 import {AiOutlineLock} from "react-icons/ai";
 import {FaPhoneSquareAlt} from "react-icons/fa";
@@ -141,7 +141,7 @@ console.log("windows",windows);
         <Menu.Item key="3">PAGES</Menu.Item>
         <Menu.Item key="4">CATEGORIES</Menu.Item>
         <Menu.Item key="5">ACCESSORIES</Menu.Item>
-        <Menu.Item key="6">BLOG</Menu.Item>
+        <Menu.Item key="6"><NavLink to="/blog"  >BLOG</NavLink></Menu.Item>
       </Menu>
       :<NavDraw />}
     </Header>
