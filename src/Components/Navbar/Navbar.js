@@ -1,7 +1,7 @@
 import React,{useEffect,useState} from "react";
 import windowSize from 'react-window-size';
 import NavDraw from "../NavsideDraw/NavDraw";
-
+import {NavLink}  from "react-router-dom"
 import "./navbar.css";
 import {AiOutlineLock} from "react-icons/ai";
 import {FaPhoneSquareAlt} from "react-icons/fa";
@@ -28,8 +28,8 @@ console.log("windows",windows);
       <img src={Logo} className="logo" />
       {windows>850?
       <Menu className="adjust-ant"  mode="horizontal" defaultSelectedKeys={['2']}>
-        <Menu.Item key="1">
-          HOME
+       <Menu.Item key="1">
+       <NavLink to="/"  > HOME
           <div className="mega-menu">
           <div className="content">
                 <div className="col">
@@ -82,9 +82,11 @@ console.log("windows",windows);
                 </div>
               </div>
             </div>
-
+            </NavLink>
         </Menu.Item>
-        <Menu.Item key="2">FEATURES
+       
+          <Menu.Item key="2">
+          <NavLink to="/blog"  >FEATURES
         <div className="mega-menu">
           <div className="content">
                 <div className="col">
@@ -137,11 +139,13 @@ console.log("windows",windows);
                 </div>
               </div>
             </div>
+            </NavLink>
         </Menu.Item>
-        <Menu.Item key="3">PAGES</Menu.Item>
-        <Menu.Item key="4">CATEGORIES</Menu.Item>
-        <Menu.Item key="5">ACCESSORIES</Menu.Item>
-        <Menu.Item key="6">BLOG</Menu.Item>
+        
+        <Menu.Item key="3"><NavLink to="/blog"  >PAGES</NavLink></Menu.Item>
+       <Menu.Item key="4"> <NavLink to="/blog"  >CATEGORIES</NavLink></Menu.Item>
+       <Menu.Item key="5"> <NavLink to="/blog"  >ACCESSORIES</NavLink></Menu.Item>
+         <Menu.Item key="6"><NavLink to="/blog"  >BLOG</NavLink></Menu.Item>
       </Menu>
       :<NavDraw />}
     </Header>

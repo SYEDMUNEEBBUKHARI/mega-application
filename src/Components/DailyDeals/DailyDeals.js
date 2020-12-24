@@ -1,4 +1,5 @@
 import React from 'react';
+import Slider from "../../Components/Slider/Slider";
 import './DailyDeals.css';
 import Carousel from "react-elastic-carousel";
 import banner4 from "../../Assets/images/banner4.jpg";
@@ -18,6 +19,8 @@ const breakPoints = [
   
  function DailyDeals() {
     return (
+        <>
+        <Slider />
         <div className="container-fluid">
             <div className="row mt-5 mx-2">
                 <div className="col-md-2">
@@ -226,8 +229,8 @@ const breakPoints = [
                 </div>
             </div>
         </div>
-    )
+        </>)
 }
 
 
-export default DailyDeals
+export default DailyDeals;
