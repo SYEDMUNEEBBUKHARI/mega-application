@@ -224,7 +224,7 @@ return(
 
 </div>
 <div  >
- <Slider />
+ {/* <Slider /> */}
  </div>
 </>
 );
