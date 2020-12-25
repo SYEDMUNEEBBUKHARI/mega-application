@@ -238,6 +238,9 @@ span.img{background-color: white;}
 .cstm-clr{
   color: white !important;
 }
+.ant-menu-horizontal > .ant-menu-item a{
+  font-size: 14px;
+}
 
 .site-brand img{
   width: 120px;
@@ -289,7 +292,8 @@ display:none;
 .ant-layout-header .ant-menu {
   line-height: inherit;
   margin-left: 9;
-  margin-left: 90px;
+  /* margin-left: 90px; */
+  margin-left: 214px;
 }
 .ant-layout-header .ant-menu {
   line-height: inherit;

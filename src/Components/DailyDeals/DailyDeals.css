@@ -572,3 +572,67 @@ section {
     background: #ff3c20 !important;
     box-shadow: none !important;
 }
+
+
+#sidenav a{
+    text-decoration: none;
+    font-size: 9px;
+    color: white;
+    position: absolute;
+    border-radius: 0 5px 5px 0px;
+    left: -73px;
+    transition: 0.3s;
+    border: 2px solid #c2e9fb;
+    width: 105px;
+    height: 32px !important;
+    margin-left: 0;
+    margin-top: 31px;
+  }
+  i{
+  padding-right:10px;
+   padding-left:10px
+    
+  }
+  #sidenav a:hover{
+   left:0px; 
+   text-align:center;
+  }
+  /* #sidenav a:hover i{
+  display:;
+  } */
+  #about{
+    top:20px;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  }
+  #blog{
+    top:50px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  }
+  #projects{
+    top:80px;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  }
+  #contact{
+    top:110px;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  }
+
+  .side-menu a svg{
+      font-size: 18px !important;
+  }
+
+  .side-menu a .cart{
+    margin: 3px 0 0 26px;
+  }
+
+  .side-menu a .heart{
+    margin: 6px 0 0 9px;
+  }
+
+  .side-menu a .refresh{
+    margin: 4px 0 0 43px;
+  }
+
+  .side-menu a .eye{
+    margin: 5px 0 0 45px;
+  }

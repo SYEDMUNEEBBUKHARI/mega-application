@@ -14,7 +14,7 @@ const contentStyle = {
     color: 'white',
     lineHeight: '160px',
     textAlign: 'center',
-    background: 'red',
+    // background: 'red',
   };
 function Slider(props) {
     

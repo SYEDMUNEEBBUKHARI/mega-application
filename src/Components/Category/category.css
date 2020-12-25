@@ -261,7 +261,7 @@ ul.menu {
   .category-flex{
       position:relative;
       top:60px;
-      left: 170px;
+      left: 104px;
       display:flex;
   }
   .ant-input-group.ant-input-group-compact > *:first-child, .ant-input-group.ant-input-group-compact > .ant-select:first-child > .ant-select-selector, .ant-input-group.ant-input-group-compact > .ant-select-auto-complete:first-child .ant-input, .ant-input-group.ant-input-group-compact > .ant-cascader-picker:first-child .ant-input {
@@ -294,8 +294,8 @@ top:65px;
     
 .icon-refresh{
 color:white;
-font-size:35px;
-
+font-size:27px;
+cursor: pointer;
 }
 
 
@@ -310,7 +310,7 @@ font-size:19px;
 
 .shop-icon{
     color:white;
-    font-size:35px;
+    font-size:27px;
     margin-right: 20px;
 }
 
@@ -356,7 +356,7 @@ font-size:19px;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
     height: 45px;
-    width: 385px;
+    width: 425px;
 }
 
   .ant-select:not(.ant-select-customize-input) .ant-select-selector {
@@ -388,7 +388,7 @@ font-size:19px;
 }
 .make-flex{
     display:flex;
-    margin-left: 258px;
+    margin-left: 230px;
 }
 
 .hide{
@@ -459,10 +459,10 @@ font-size:19px;
             margin-left: 34px;
             margin-top: 50px;
         }
-        .icon-refresh {
+        /* .icon-refresh {
             color: white;
             font-size: 24px;
-        }
+        } */
         .make-flex {
             display: flex;
             margin-left: 68px;
