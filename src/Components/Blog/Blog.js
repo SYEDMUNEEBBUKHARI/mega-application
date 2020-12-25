@@ -199,8 +199,7 @@ return(
 
 
 
-                            {/* paginations */}
-
+                            
 
 
 
@@ -352,6 +351,18 @@ return(
                         </div>
                     </div>
                 </div>
+                           
+                        {/* paginations */}
+                        <div className="row pagination-right">
+                            <div class="pagination">
+                                <a href="#" class="pagination-item ">prev</a>
+                                <a href="#" class="pagination-item active">1</a>
+                                <a href="#" class="pagination-item ">2</a>
+                                <a href="#" class="pagination-item ">3</a>
+                                <a href="#" class="pagination-item ">4</a>
+                                <a href="#" class="pagination-item ">next</a>
+                            </div>
+                        </div>
             </div>
         </section>
             </>
