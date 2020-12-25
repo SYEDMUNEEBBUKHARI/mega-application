@@ -24,7 +24,7 @@ function Slider(props) {
           <Row className="handle-row ml-5">
          
       {/* <Col span={props.windowWidth<770 ? 24:11} offset={props.windowWidth<770 ? 0:2}> */}
-      <Col span={props.windowWidth<770 ? 24:14}>
+      <Col span={props.windowWidth<770 ? 24:16}>
 
 
       <Carousel autoplay >

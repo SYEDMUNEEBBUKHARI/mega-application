@@ -3,6 +3,9 @@ import './Footer.css';
 import { FaFacebookF, FaTwitter, FaGooglePlusG, FaPinterest, FaRegDotCircle } from "react-icons/fa";
 import logofooter from "../../Assets/images/logo-footer.png";
 import payment from "../../Assets/images/payment.png";
+import Logo from "../../Assets/images/Mega.jpg";
+
+
 
 function Footer() {
     return (
@@ -48,7 +51,7 @@ function Footer() {
 			<div class="row footer_inner mx-3">
 				<div class="col-lg-3 col-sm-6">
 					<aside class="f_widget ab_widget">
-						<a href="#"><img style={{marginBottom: '20px',}} src={logofooter} alt="image" /></a>
+						<a href="#"><img style={{marginBottom: '20px',width: '40%',}} src={Logo} alt="image" /></a>
 						<ul>
                             <li class="adres">
                                     San Luis potosí, centro historico, 78000 san luis potosí, SPL, Mexico
@@ -150,7 +153,7 @@ function Footer() {
         <div class="footer-bottom ">
             <div class="container">
                 <div class="copyright">
-                    eMarket © 2020 eMarket Store. All Rights Reserved. Designed by <a href="/" target="_blank">Wasif Qadeer</a>
+                    MAGNA © 2020 MAGNA Store. All Rights Reserved. Designed by <a href="/" target="_blank">MB</a>
                 </div>
             </div>
         </div>

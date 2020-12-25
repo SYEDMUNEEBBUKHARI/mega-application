@@ -550,7 +550,9 @@ section {
     right: 22px;
     top: -91px;
 }
-
+.lgksPe:hover:enabled, .lgksPe:focus:enabled{
+    outline: none !important;
+}
 .rec-dot{
     margin: 0 5px !important;
     width: 30px !important;

@@ -5,8 +5,8 @@ import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import Blog from "./Components/Blog/Blog"
 import Category from "./Components/Category/Category";
-
-
+import BlogMetaData from "./Components/Blog/BlogMetaData/BlogMetaData";
+import Accessories from "./Components/Accessories/Accessories";
 
 
 
@@ -20,6 +20,8 @@ function App() {
     <Switch>
       <Route exact path="/"  component={Home}/>
       <Route path="/blog"  component={Blog}/>
+      <Route path="/blogmetadata"  component={BlogMetaData}/>
+      <Route path="/accessories"  component={Accessories}/>
       <Redirect to="/" />
     </Switch>
     

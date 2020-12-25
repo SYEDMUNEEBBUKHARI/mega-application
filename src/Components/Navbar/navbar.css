@@ -235,7 +235,13 @@ span.img{background-color: white;}
   }
 
 
+.cstm-clr{
+  color: white !important;
+}
 
+.site-brand img{
+  width: 120px;
+}
   header.ant-layout-header {
     height: 64px;
     padding: 0 50px;

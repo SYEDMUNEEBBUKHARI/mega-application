@@ -2,6 +2,7 @@ import React from 'react';
 import './NewItems.css';
 import pastrami from "../../Assets/images/1.jpg";
 import Carousel from "react-elastic-carousel";
+import towel from "../../Assets/images/towel.jpg";
 import { Tabs, Card } from 'antd';
 
 
@@ -32,8 +33,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -46,8 +54,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
-                        >
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                            >
+                                <div className="hoverable-draw">
+                                    <div className="overlay">
+                                        <a href="#" className="icon" title="User Profile">
+                                        <img className="hover-image" src={towel} alt=""/>
+                                        </a>
+                                    </div>
+                                </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -61,8 +76,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
-                        >
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                            >
+                                <div className="hoverable-draw">
+                                    <div className="overlay">
+                                        <a href="#" className="icon" title="User Profile">
+                                        <img className="hover-image" src={towel} alt=""/>
+                                        </a>
+                                    </div>
+                                </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -73,60 +95,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
-                        >
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        
-                    </div>
-
-                    <div className="row outline ml-3">
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
-                        >
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
-                        >
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                    </div>
-
-                    <div className="row outline ml-3">
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
-                        >
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
-                        >
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                            >
+                                <div className="hoverable-draw">
+                                    <div className="overlay">
+                                        <a href="#" className="icon" title="User Profile">
+                                        <img className="hover-image" src={towel} alt=""/>
+                                        </a>
+                                    </div>
+                                </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -140,8 +117,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -152,8 +136,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -166,8 +157,55 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                            >
+                                <div className="hoverable-draw">
+                                    <div className="overlay">
+                                        <a href="#" className="icon" title="User Profile">
+                                        <img className="hover-image" src={towel} alt=""/>
+                                        </a>
+                                    </div>
+                                </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -178,8 +216,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -192,8 +237,55 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -204,8 +296,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -224,8 +323,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -238,8 +344,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -253,8 +366,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -265,60 +385,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        
-                    </div>
-
-                    <div className="row outline ml-3">
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
-                        >
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
-                        >
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                    </div>
-
-                    <div className="row outline ml-3">
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
-                        >
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
-                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -332,8 +407,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -344,8 +426,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -358,8 +447,55 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                            >
+                                <div className="hoverable-draw">
+                                    <div className="overlay">
+                                        <a href="#" className="icon" title="User Profile">
+                                        <img className="hover-image" src={towel} alt=""/>
+                                        </a>
+                                    </div>
+                                </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -370,8 +506,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -384,8 +527,55 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -396,8 +586,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
-                        >
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                            >
+                                <div className="hoverable-draw">
+                                    <div className="overlay">
+                                        <a href="#" className="icon" title="User Profile">
+                                        <img className="hover-image" src={towel} alt=""/>
+                                        </a>
+                                    </div>
+                                </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -416,8 +613,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -430,8 +634,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -445,8 +656,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -457,60 +675,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
-                        >
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        
-                    </div>
-
-                    <div className="row outline ml-3">
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
-                        >
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
-                        >
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                    </div>
-
-                    <div className="row outline ml-3">
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
-                        >
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
-                        >
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                            >
+                                <div className="hoverable-draw">
+                                    <div className="overlay">
+                                        <a href="#" className="icon" title="User Profile">
+                                        <img className="hover-image" src={towel} alt=""/>
+                                        </a>
+                                    </div>
+                                </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -524,8 +697,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -536,8 +716,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -550,8 +737,55 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -562,8 +796,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -576,8 +817,55 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                            >
+                                <div className="hoverable-draw">
+                                    <div className="overlay">
+                                        <a href="#" className="icon" title="User Profile">
+                                        <img className="hover-image" src={towel} alt=""/>
+                                        </a>
+                                    </div>
+                                </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -588,8 +876,15 @@ function NewItems() {
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img src={pastrami} alt=""/>}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
                         >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <a href="#" className="icon" title="User Profile">
+                                    <img className="hover-image" src={towel} alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 

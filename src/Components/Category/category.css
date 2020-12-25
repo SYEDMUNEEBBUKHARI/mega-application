@@ -316,7 +316,9 @@ font-size:19px;
 
 
 
-
+.search-form .search-input:focus{
+    outline: none !important;
+}
 
 
 .search-form {

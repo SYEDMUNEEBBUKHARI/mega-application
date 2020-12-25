@@ -30,9 +30,9 @@
 }
 
 .subscribe button{
-    background-color: #ff3c20;
+    background-color: #232f3e85;
     border: 0 none;
-    color: #fff;
+    color: #fff !important;
     font-weight: 700;
     font-size: 16px;
     height: 45px;

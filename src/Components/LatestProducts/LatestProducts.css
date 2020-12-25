@@ -3,7 +3,7 @@
     height: 180px;
 }
 .item-left-img img{
-    width: 70px;
+    width: 100%;
 }
 .item-title a{
     font-size: 13px;

@@ -1,0 +1,66 @@
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: -175px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: red;
+  }
+  
+  .hoverable-draw:hover .overlay {
+    opacity: 1;
+  }
+  
+  .icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .hover-image:hover {
+    color: #eee;
+  }
+  .hover-image{
+    width: 202px !important;
+    height: 175px;
+  }
+  .trending-items{
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    background-color: #232f3e;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    padding: 11px 20px;
+    position: relative;
+    bottom: -52px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .trend-title{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.trending-slider .rec-pagination{
+    display: none !important;
+}
+
+.grid-systems{
+    overflow: hidden;
+}
