@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import windowSize from 'react-window-size';
 import {FaHamburger} from "react-icons/fa";
 import {AiOutlineSearch} from "react-icons/ai";
+import left from "../../Assets/images/4.jpg";
 import "./category.css";
 import {HiOutlineShoppingCart} from "react-icons/hi";
 import Slider from "../Slider/Slider";
@@ -24,21 +25,79 @@ const { Search } = Input;
 const menu = (
   <Menu>
     <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">
-        1st menu item
-      </a>
+    <li>
+                                        <table class="table table-striped">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-center" style={{width:'70px',}} >
+                                                        <a href="product.html">
+                                                            <img src={left} style={{width:'70px',}}  alt="Yutculpa ullamcon" title="Yutculpa ullamco" class="preview"/>
+                                                        </a>
+                                                    </td>
+                                                    <td class="text-left"> <a class="cart_product_name" href="product.html">Yutculpa<br /> ullamco</a> 
+                                                    </td>
+                                                    <td class="text-center">x1</td>
+                                                    <td class="text-center">$80.00</td>
+                                                    <td class="text-right">
+                                                        <a href="product.html" class="fa fa-edit"></a>
+                                                    </td>
+                                                    <td class="text-right">
+                                                        <a onclick="cart.remove('2');" class="fa fa-times fa-delete"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center" style={{width:'70px',}} >
+                                                        <a href="product.html">
+                                                            <img src={left} style={{width:'70px',}} alt="Xancetta bresao" title="Xancetta bresao" class="preview" />
+                                                        </a>
+                                                    </td>
+                                                    <td class="text-left"> <a class="cart_product_name" href="product.html">Xancetta bresao</a> 
+                                                    </td>
+                                                    <td class="text-center">x1</td>
+                                                    <td class="text-center">$60.00</td>
+                                                    <td class="text-right">
+                                                        <a href="product.html" class="fa fa-edit"></a>
+                                                    </td>
+                                                    <td class="text-right">
+                                                        <a onclick="cart.remove('1');" class="fa fa-times fa-delete"></a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
     </Menu.Item>
     <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer" href="http://www.taobao.com/">
-        2nd menu item
-      </a>
+    <li>
+                                        <div>
+                                            <table class="table table-bordered">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-left"><strong>Sub-Total</strong>
+                                                        </td>
+                                                        <td class="text-right">$140.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-left"><strong>Eco Tax (-2.00)</strong>
+                                                        </td>
+                                                        <td class="text-right">$2.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-left"><strong>VAT (20%)</strong>
+                                                        </td>
+                                                        <td class="text-right">$20.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-left"><strong>Total</strong>
+                                                        </td>
+                                                        <td class="text-right">$162.00</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p class="text-right"> <a class="btn view-cart" href="cart.html"><i class="fa fa-shopping-cart"></i>View Cart</a>&nbsp;&nbsp;&nbsp; <a class="btn btn-mega checkout-cart" href="checkout.html"><i class="fa fa-share"></i>Checkout</a> 
+                                            </p>
+                                        </div>
+                                    </li>
     </Menu.Item>
-    <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer" href="http://www.tmall.com/">
-        3rd menu item
-      </a>
-    </Menu.Item>
-    <Menu.Item danger>a danger item</Menu.Item>
   </Menu>
 );
 
