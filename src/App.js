@@ -16,7 +16,7 @@ function App() {
    
   <BrowserRouter>
   <Topheader />
-  <div style={{display: 'flex'}}>
+  <div className="makeflex-head">
   <General />
 <div className="handleflex"></div>
   <Navbar />

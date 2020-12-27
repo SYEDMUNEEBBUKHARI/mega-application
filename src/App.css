@@ -1,5 +1,11 @@
 
 
 .handleflex{
-    width:350px;
+    width:200px;
+}
+
+
+.makeflex-head{
+    width:500px;
+    display:flex;
 }

@@ -23,8 +23,7 @@ function Slider(props) {
        <div className="container-fluid">
           <Row className="handle-row ml-5">
          
-      {/* <Col span={props.windowWidth<770 ? 24:11} offset={props.windowWidth<770 ? 0:2}> */}
-      <Col span={props.windowWidth<770 ? 24:16}>
+      <Col span={props.windowWidth<770 ? 24:24}>
 
 
       <Carousel autoplay >
@@ -46,21 +45,7 @@ function Slider(props) {
   </Carousel>
 
       </Col>
-      <Col span={props.windowWidth>770 && 6} className={props.windowWidth<770 && "hidecol"}>
-        <Row gutter={[16, 16,2]}>
-          <Col span={8} >   
-           <img src={Slider1}  className="slide-image" alt="not found" />
-          </Col>
-          
-       </Row>
-       <Row gutter={[16, 16,2]}>
-          <Col span={8} >   
-           <img src={Slider1}  className="slide-image" alt="not found" />
-          </Col>
-          
-       </Row>
-     </Col>
-     <col span={4}></col>
+      
   </Row>
       </div>
         </>

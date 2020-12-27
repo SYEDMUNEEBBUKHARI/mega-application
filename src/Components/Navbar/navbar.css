@@ -14,8 +14,10 @@ body {
   background-color: #ffffff;
 }
 
-
-
+.adjust-ant{
+  width:600px;
+ 
+}
 /* header */
 .header {
   background: transparent;
