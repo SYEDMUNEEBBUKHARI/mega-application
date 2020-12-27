@@ -7,15 +7,22 @@ import Blog from "./Components/Blog/Blog"
 import Category from "./Components/Category/Category";
 import BlogMetaData from "./Components/Blog/BlogMetaData/BlogMetaData";
 import Accessories from "./Components/Accessories/Accessories";
-
-
+import General from "./Components/generalCategory/General";
+import Topheader from "./Components/TopHeader/Topheader";
 
 function App() {
   return (
    <>
    
   <BrowserRouter>
+  <Topheader />
+  <div style={{display: 'flex'}}>
+  <General />
+<div className="handleflex"></div>
   <Navbar />
+
+  </div>
+  
      <Category />
     <Switch>
       <Route exact path="/"  component={Home}/>

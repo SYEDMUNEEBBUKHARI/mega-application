@@ -4,6 +4,7 @@ import NavDraw from "../NavsideDraw/NavDraw";
 import {NavLink}  from "react-router-dom"
 import "./navbar.css";
 import {AiOutlineLock} from "react-icons/ai";
+import GeneralCategory from "../generalCategory/General";
 import {FaPhoneSquareAlt} from "react-icons/fa";
 import { Layout, Menu, Breadcrumb } from 'antd';
 import Logo from "../../Assets/images/Mega.jpg";
@@ -18,16 +19,9 @@ console.log("windows",windows);
      },[windows,props.windowWidth])
     return(
       <>
-           <div className="login-title">
-               <div className="flex-item"><AiOutlineLock /> Login or Register
-                </div>
-               <div className="flex-item">|</div>
-               <div className="flex-item"><FaPhoneSquareAlt /> Hotline (+123)4 567 890 </div>
-          </div>
+          
    <Header className="makeflex">
-     <div className="site-brand">
-      <img src={Logo} className="logo" />
-      </div>
+     
       {windows>850?
       <Menu className="adjust-ant"  mode="horizontal" defaultSelectedKeys={['2']}>
        <Menu.Item key="1">

@@ -4,18 +4,25 @@
     padding: 20px 0;
 }
 .menu {
-    
     width: 218px;
     font-family: Verdana, Geneva, sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 15px;
     position: relative;
+    border: 1px solid black;
     padding: 0 0 0 4px;
-    left:0;
+    border-top: none;
+    left: 0;
+    width: 268px !important;
     text-align: left;
     background-color: white;
-
+}
+.menu > li > a {
+    padding: 20px 18px;
+    display: block;
+    position: relative;
+    left: 0px;
 }
 .ant-dropdown-menu {
     position: relative;
@@ -35,10 +42,8 @@
 
 
 li.vertical{
-    background-color:#227087;
 }
 li.vertical:hover{
-    background-color:#227087;
 }
 .menu a, .menu a:link, .menu a:visited, .menu a:focus, span {
     color: #fff;
@@ -53,13 +58,9 @@ li.vertical:hover{
     display: block;
     text-align: center;
     margin-left: -4px;
-    border-left: 1px solid rgba(255, 255, 255, 0.11);
     box-shadow: -1px 0 0 rgba(0, 0, 0, 0.1);
 }
-.menu > li > a {
-    padding:20px 18px;
-    display: block;
-}
+
 .menu > li:hover > a {
     color: #227087;
 }
@@ -68,7 +69,6 @@ li.vertical:hover{
 }
 /* my design */
 .menu > li.vertical:hover {
-    background-color: #227087;
 }
 /* Megadrop width dropdown */
  .menu > li > .megadrop {
@@ -157,16 +157,16 @@ li.vertical:hover{
 }
 
 .vertical-menu-item:hover{
-    border-bottom:1px solid #00A29E;
-   color:#122331 !important;
-    position: relative;
-    left:50px;
-    text-align: left;
- font-size:15px;
- font-weight:600;
+    background-color: rgb(64, 237, 170);
+    width: 267px !important;
    
 }
-
+.vertical-menu-item:hover .menu-icon {
+    background-color: rgb(64, 237, 170);
+color:white;
+    position: relative;
+    top: -3px;
+}
 h3.login-title{
     background-color: white;
   }
@@ -202,9 +202,6 @@ ul.menu {
     z-index:99;
 }
 
-.first{
-    border-top:1px solid black;
-}
 
 .showchevron{
     background-color:transparent;
@@ -215,6 +212,17 @@ ul.menu {
 
 }
 
+.input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control, .input-group>.form-control-plaintext {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    height: 45px;
+    border: 1px solid black;
+    min-width: 0;
+    border-radius:0px;
+    margin-bottom: 0;
+}
+
 .show{
     transition:all 0.3s ease;
 }
@@ -223,11 +231,15 @@ ul.menu {
     
     margin-top:-600px;
 }
-   
+   .cate-flex{
+       display:flex;
+   }
 .makeflex {
     display: flex;
-    background-color: #122331;
+    background-color: transparent;
+    color:black;
     padding-bottom: 45px;
+    justify-content: center;
 }
 .ant-select-single.ant-select-show-arrow .ant-select-selection-item, .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
     padding-right: 18px;
@@ -257,7 +269,16 @@ ul.menu {
     border-right-width: 1px;
   }
 
+.handlesearch{
+    position:relative;
+    top:-80px;
+}
 
+a, area, button, [role='button'], input:not([type='range']), label, select, summary, textarea {
+    touch-action: manipulation;
+    height: 45px;
+    width: 294px;
+}
   .category-flex{
       position:relative;
       top:60px;
@@ -293,7 +314,7 @@ top:65px;
     }
     
 .icon-refresh{
-color:white;
+color:rgb(0, 0, 0);
 font-size:27px;
 cursor: pointer;
 }
@@ -309,7 +330,7 @@ font-size:19px;
 
 
 .shop-icon{
-    color:white;
+    color:rgb(0, 0, 0);
     font-size:27px;
     margin-right: 20px;
 }
@@ -352,12 +373,7 @@ font-size:19px;
     /* animate it */
     transition: 0.2s;
   }
-  a, area, button, [role='button'], input:not([type='range']), label, select, summary, textarea {
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    height: 45px;
-    width: 425px;
-}
+  
 
   .ant-select:not(.ant-select-customize-input) .ant-select-selector {
     position: relative;
@@ -370,10 +386,10 @@ font-size:19px;
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .menu a, .menu a:link, .menu a:visited, .menu a:focus, span {
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     width: 217px;
-    wisth: 20px;
+    width: 20px;
 }
 .ant-select-single.ant-select-show-arrow .ant-select-selection-item, .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
     padding-right: 18px;
@@ -384,7 +400,7 @@ font-size:19px;
 .search-input:not(:placeholder-shown) ~ .search-button {
     transform: translateX(calc(-1 * var(--searchButtonWidth)));
     color: #ffffff ;
-    background-color: #026d6b ;
+    background-color: #026d6bb9 ;
 }
 .make-flex{
     display:flex;

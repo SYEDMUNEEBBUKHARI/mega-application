@@ -5,21 +5,13 @@ import {AiOutlineSearch} from "react-icons/ai";
 import left from "../../Assets/images/4.jpg";
 import "./category.css";
 import {HiOutlineShoppingCart} from "react-icons/hi";
-import Slider from "../Slider/Slider";
 import CategoryDraw from "../CategorySidedraw/CategorySideDraw";
 import {FiRefreshCcw} from "react-icons/fi"
-import {HiShoppingCart} from "react-icons/hi";
 import {ImHeart} from "react-icons/im";
 import {FiChevronDown,FiChevronUp} from "react-icons/fi";
-import { Input, Col, Row, Select, InputNumber, DatePicker, AutoComplete, Cascader } from 'antd';
+import { Input ,Select} from 'antd';
 
 import { Menu, Dropdown } from 'antd';
-import { DownOutlined } from '@ant-design/icons';
-
-const { Option } = Select;
-
-const { Search } = Input;
-
 
 
 const menu = (
@@ -100,7 +92,9 @@ const menu = (
     </Menu.Item>
   </Menu>
 );
-
+function handleChange(value) {
+  console.log(value); // { value: "lucy", key: "lucy", label: "Lucy (101)" }
+}
 
 
 
@@ -134,130 +128,21 @@ console.log("windows",windows);
             }
 return(
 <>
-
+<div className="handlesearch">
 <div className="makeflex">
-   <div>{ windows>850?  <><div className="categories text-center" onClick={handleCategory}><span className="category-position"> <HiShoppingCart className="cate-icons" />Categories {chevron ? chevup : chevdown}</span></div>
-
-      <ul className={`menu ${show}`}>
-        <li className="vertical first"><a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon"/>  BURGERS</a>
-
-          <div className="megadrop">
-
-            <div className="col">
-              <h3 className="title">Title</h3>
-              <ul>
-                <li><a href="#">Sub-menu 1</a>
-                </li>
-                <li><a href="#">Sub-menu 2</a>
-                </li>
-                <li><a href="#">Sub-menu 3</a>
-            </li>
-       </ul>
-        </div>
-        <div className="col">
-          <h3  className="title">Title</h3>
-          <ul>
-            <li><a href="#">Sub-menu 1</a>
-            </li>
-            <li><a href="#">Sub-menu 2</a>
-            </li>
-            <li><a href="#">Sub-menu 3</a>
-            </li>
-          </ul>
-        </div>
-        <div className="col">
-          <h3  className="title">Title</h3>
-          <ul>
-            <li><a href="#">Sub-menu 1</a>
-            </li>
-            <li><a href="#">Sub-menu 2</a>
-            </li>
-            <li><a href="#">Sub-menu 3</a>
-            </li>
-          </ul>
-        </div>
-
-      </div>
-
-    </li>
-        <li className="vertical "> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
-
-      <div className="megadrop">
-
-      </div>
-
-    </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
-
-      <div className="megadrop">
-
-      </div>
-
-    </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
-
-      <div className="megadrop">
-
-      </div>
-
-    </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
-
-<div className="megadrop">
-
-</div>
-
-</li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
-
-<div className="megadrop">
-
-</div>
-
-</li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
-
-<div className="megadrop">
-
-</div>
-
-</li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
-
-<div className="megadrop">
-
-</div>
-
-</li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
-
-<div className="megadrop">
-
-</div>
-
-</li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
-
-      <div className="megadrop">
-
-      </div>
-
-    </li>
-
-      </ul>
-      </>:  <CategoryDraw />}
-  </div>
-
+   
+<div></div>
 <div className="category-flex">
-{windows>850?  <div> <Select
-    labelInValue
-    defaultValue={{ value: 'Categories' }}
-    style={{ width: 120 }}
-    onChange={handleCategoryChange}
-  >
-    <Option value="jack">Jack (100)</Option>
-    <Option value="lucy">Lucy (101)</Option>
-  </Select></div>:""}
+{windows>850?  <div class="input-group mb-3">
+ 
+  <select class="custom-select" id="inputGroupSelect01">
+    <option selected>Category...</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+</div>
+  :""}
   <div>
 <form className="search-form">
  {windows>850? 
@@ -279,11 +164,12 @@ return(
 
 </div>
 
-
+<div></div>
 
 </div>
 <div  >
  {/* <Slider /> */}
+ </div>
  </div>
 </>
 );

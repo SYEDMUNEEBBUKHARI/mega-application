@@ -1,0 +1,14 @@
+.login-title{
+background-color:#122331;
+height:50px;
+margin-bottom:10px;
+}
+.register{
+    color:white;
+    position: relative;
+    top:-26px;
+}
+.site-brand{
+    position:relative;
+    top:6px
+}
