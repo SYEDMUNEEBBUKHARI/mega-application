@@ -9,6 +9,9 @@ import BlogMetaData from "./Components/Blog/BlogMetaData/BlogMetaData";
 import Accessories from "./Components/Accessories/Accessories";
 import General from "./Components/generalCategory/General";
 import Topheader from "./Components/TopHeader/Topheader";
+import ViewCart from "./Components/Carts/ViewCart/ViewCart";
+import Checkout from "./Components/Carts/Checkout/Checkout";
+
 
 function App() {
   return (
@@ -29,6 +32,8 @@ function App() {
       <Route path="/blog"  component={Blog}/>
       <Route path="/blogmetadata"  component={BlogMetaData}/>
       <Route path="/accessories"  component={Accessories}/>
+      <Route path="/viewcart"  component={ViewCart}/>
+      <Route path="/checkout"  component={Checkout}/>
       <Redirect to="/" />
     </Switch>
     

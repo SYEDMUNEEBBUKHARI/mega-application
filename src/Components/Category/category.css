@@ -272,6 +272,7 @@ ul.menu {
 .handlesearch{
     position:relative;
     top:-80px;
+    margin-bottom: -65px;
 }
 
 a, area, button, [role='button'], input:not([type='range']), label, select, summary, textarea {
@@ -591,4 +592,56 @@ font-size:19px;
     border-color: #444;
   }
   
- 
+  .ant-dropdown {
+    left: 951.438px !important;
+ }
+ .table td, .table th{
+    padding: 0 !important;
+ }
+ .ant-dropdown-menu{
+    width: 370px !important;
+    float: right !important;
+    overflow: hidden !important;
+ }
+ .shopping .ant-dropdown-trigger svg{
+    background-color: #ff3c20;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+ }
+
+ .view-cart{
+    width: 42% !important;
+    height: 31px;
+    padding: 0 !important;
+    font-size: 12px !important;
+    background-color: black !important;
+    color: white !important;
+ }
+ .checkout-cart{
+    width: 42% !important;
+    height: 31px;
+    padding: 0 !important;
+    font-size: 12px !important;
+    background-color: black !important;
+    color: white !important;
+ }
+
+.view-cart:focus{
+   outline: none;
+ }
+.checkout-cart:focus{
+    outline: none;
+ }
+
+
+ .view-cart svg{
+ font-size: 16px;
+ margin: 0 3px;
+ }
+
+ .checkout-cart svg{
+    font-size: 16px;
+    margin: 0 3px;
+    }

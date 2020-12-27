@@ -87,8 +87,10 @@ a:hover {
 .mega-menu {
   position: absolute;
   background: #ffffff;
-  left: 59px;
-  width: 59vw;
+  /* left: 59px;
+  width: 59vw; */
+  left: -142px;
+  width: 49vw;
   top: 80px;
   opacity: 0;
   visibility: hidden;
