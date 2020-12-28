@@ -82,6 +82,7 @@ h4.modtitle{
     margin-bottom: 0;
     font-size: 16px;
     color: inherit;
+    font-weight: 700;
 }
 
 .inner-selection{
@@ -90,4 +91,172 @@ h4.modtitle{
 
 .inner-selection p{
    margin: 0 0 10px
+}
+
+.panel-default {
+    border-color: #ddd;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+.panel-body {
+    padding: 5px;
+}
+
+label {
+    font-size: 13px;
+    font-weight: normal;
+}
+.cstm-margin{
+    margin: 0 0 -17px 12px;
+    font-weight: 500;
+}
+
+.cstm-height-input{
+    height: 32px !important;
+    width: 90% !important;
+    display: block;
+    margin: 0 auto !important;
+    font-size: 12px !important;
+}
+
+.cstm-height-input:focus{
+    box-shadow: none !important;
+    outline: none;
+}
+
+.checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ant-checkbox{
+    width: 12% !important;
+}
+
+.ant-checkbox-inner{
+    left: 16px !important;
+}
+.ant-checkbox-inner:focus{
+    outline: none !important;
+}
+.ant-checkbox span{
+    width: 16px !important;
+}
+
+.menu a, .menu a:link, .menu a:visited, .menu a:focus, span:hover{
+    outline: none !important;
+}
+
+.ant-checkbox + span{
+    font-size: 11px !important;
+}
+
+.input-group {
+    position: relative;
+    display: table !important;
+    border-collapse: separate;
+}
+
+.auto-top{
+    margin-top: 38px;
+}
+
+.auto-top, .input-group input{
+    width: 100% !important;
+}
+
+.right-button-det {
+    position: absolute;
+    text-align: right;
+    font-size: 0;
+    right: 0;
+    white-space: nowrap;
+    top: 0px;
+}
+
+.apply-coupon{
+    height: 31px !important;
+    padding: 0 28px !important; 
+    font-size: 13px !important;
+    color: #fff !important;
+    border-radius: inherit !important;
+    background-color: #337ab7 !important;
+}
+
+#input-coupon, #input-voucher{
+    font-size: 13px !important;
+}
+
+.apply-voucher{
+    height: 31px !important;
+    padding: 0 28px !important;
+    font-size: 13px !important;
+    border-radius: inherit !important;
+    background-color: #337ab7 !important;
+    color: #fff !important;
+}
+
+/* .right-updates{
+    position: absolute;
+    right: -192px;
+    top: 2px;
+}
+
+.refresh-update{
+    width: 14%;
+    height: 31px;
+}
+
+
+.cross-update{
+    width: 14%;
+    height: 31px;
+} */
+
+#button-confirm{
+    float: right;
+    margin-top: -48px;
+    width: 16%;
+    height: 37px;
+    padding: 0;
+}
+
+.coupon-checkout{
+    width: 26% !important;
+    position: absolute !important;
+    top: 1px;
+    right: 1px;
+    height: 32px !important;
+    padding: 0 !important;
+    border: none !important;
+    background: #337ab7 !important;
+    color: white !important;
+    font-size: 13px !important;
+}
+
+.coupon-Voucher{
+    width: 26% !important;
+    position: absolute !important;
+    top: 1px;
+    right: 1px;
+    height: 32px !important;
+    padding: 0 !important;
+    border: none !important;
+    background: #337ab7 !important;
+    color: white !important;
+    font-size: 13px !important;
 }

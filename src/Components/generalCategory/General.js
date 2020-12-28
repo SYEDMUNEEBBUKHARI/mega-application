@@ -52,7 +52,7 @@ return(
 <div className="makeflex">
    <div>{ windows>850?  <>
    <div className="categories text-center" onClick={handleCategory}>
-     <span className="category-position"> <HiShoppingCart className="cate-icons" />Categories {chevron ? chevup : chevdown}</span></div>
+     <span className="category-position"> <HiShoppingCart className="cate-icons" />All Categories {chevron ? chevup : chevdown}</span></div>
 
       <ul className={`menu ${show}`}>
         <li className="vertical first"><a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon"/>  BURGERS</a>

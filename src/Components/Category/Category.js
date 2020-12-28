@@ -139,7 +139,7 @@ return(
 <div className="category-flex">
 {windows>850?  <div class="input-group mb-3">
  
-  <select class="custom-select" id="inputGroupSelect01">
+  <select class="custom-select give-categories" id="inputGroupSelect01">
     <option selected>Category...</option>
     <option value="1">One</option>
     <option value="2">Two</option>

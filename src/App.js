@@ -11,6 +11,7 @@ import General from "./Components/generalCategory/General";
 import Topheader from "./Components/TopHeader/Topheader";
 import ViewCart from "./Components/Carts/ViewCart/ViewCart";
 import Checkout from "./Components/Carts/Checkout/Checkout";
+import UserLogin from "./Components/UserLogin/UserLogin";
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <Route path="/accessories"  component={Accessories}/>
       <Route path="/viewcart"  component={ViewCart}/>
       <Route path="/checkout"  component={Checkout}/>
+      <Route path="/userlogin"  component={UserLogin}/>
       <Redirect to="/" />
     </Switch>
     

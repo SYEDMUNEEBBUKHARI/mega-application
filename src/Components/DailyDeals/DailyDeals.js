@@ -34,7 +34,7 @@ const breakPoints = [
                     </div>
                 </div>
                 <div className="col-md-10">
-                <h3 class="modtitle"><span className="daily-deals">Daily Deals</span></h3>
+                <h3 class="modtitle"><span style={{color: 'white',}} className="daily-deals">Daily Deals</span></h3>
                 <Carousel className="daily-deals-slider" style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPoints}>
                     <div className="row outline">
                         <div className="item-left col-lg-6 col-md-5 col-sm-5 col-xs-12">

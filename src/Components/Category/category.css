@@ -76,7 +76,7 @@ li.vertical:hover{
     visibility: hidden;
     position: absolute;
     list-style: none;
-    top: 120px;
+    top: 0;
     left: 265px;
     width: 500px;
     min-height: 100%;
@@ -354,8 +354,19 @@ font-size:19px;
   .search-input {
     /* take full width of form */
     width: 100%;
+    border: 1px solid gray;
   }
   
+  .give-categories{
+    border: 1px solid gray;
+    font-size: 13px !important;
+    width: 100% !important;
+  }
+
+  .give-categories:focus{
+   box-shadow: none !important;
+   outline: none !important;
+  }
   .search-button {
     position: absolute; 
     /* push outside the form, hiding it */

@@ -23,7 +23,7 @@ const breakPointsTabs = [
 function TrendingItems() {
     return (
         <React.Fragment>
-        <h3 class="trend-title"><span className="trending-items">Trending Items</span></h3>
+        <h3 class="trend-title"><span style={{color: 'white',}}  className="trending-items">Trending Items</span></h3>
                     <Tabs defaultActiveKey="1" centered onChange={callback}>
                     <TabPane tab="Bedroom" key="1">
                     <Carousel className="trending-slider" style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPointsTabs}>
