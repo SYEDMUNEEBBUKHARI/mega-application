@@ -21,6 +21,10 @@ function Topheader(props){
       const handelLogin=()=>{
        history.push('/userlogin');
     }
+
+      const handelRegistration=()=>{
+      history.push('/registerform');
+    }
    
 //858
 const [windows,setWindow]=useState(props.windowWidth);
@@ -38,7 +42,7 @@ console.log("windows",windows);
             </div>
             <div className="register makeflex">
                <div>
-                  <span className="login-click" onClick={handelLogin}><AiOutlineLock /> Login</span> or <span className="register-click">Register</span>
+                  <span className="login-click" onClick={handelLogin}><AiOutlineLock /> Login</span> or <span className="register-click" onClick={handelRegistration}>Register</span>
                 </div>
                <div >|</div>
                <div><FaPhoneSquareAlt /> Hotline (+123)4 567 890 </div>

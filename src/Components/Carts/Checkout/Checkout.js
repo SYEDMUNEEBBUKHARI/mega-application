@@ -15,7 +15,7 @@ function Checkout() {
     return (
         <div className="main-container container-fluid">
             <ul className="breadcrumb">
-                <li><a className="cstm-width" href="#"><RiHome4Line /><RiArrowDropRightLine /></a></li>
+                <li><a className="cstm-width" href="#"><RiHome4Line /><RiArrowDropRightLine style={{fontSize: '27px',}} /></a></li>
                 <li><a href="#">Checkout</a></li>
             </ul>
 

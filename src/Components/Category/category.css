@@ -146,6 +146,7 @@ li.vertical:hover{
     position: relative;
     left:50px;
     text-align: left;
+    font-size: 16px;
 }
 .menu-icon{
     background-color:white;
