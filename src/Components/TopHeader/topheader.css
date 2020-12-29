@@ -14,11 +14,17 @@ margin-bottom:10px;
 }
 
 .login-click{
-    color: white;
     cursor: pointer;
 }
 
 .register-click{
-    color: white;
     cursor: pointer;
+}
+
+.login-click svg{
+    margin-top: -4px;
+}
+
+.contact-svg svg{
+    margin-top: -4px;
 }

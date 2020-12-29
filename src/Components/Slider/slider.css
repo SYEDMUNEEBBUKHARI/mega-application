@@ -48,7 +48,11 @@
 .slide-image-first{
   height:222px;
   width:950px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
+}
+
+.set-margin{
+  margin-top: -50px;
 }
 
 .hidecol{

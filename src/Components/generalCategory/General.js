@@ -55,108 +55,1142 @@ return(
      <span className="category-position"> <HiShoppingCart className="cate-icons" />All Categories {chevron ? chevup : chevdown}</span></div>
 
       <ul className={`menu ${show}`}>
-        <li className="vertical first"><a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon"/>  BURGERS</a>
-
+        <li className="vertical first"><a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon"/>  Magna Food</a>
           <div className="megadrop">
-
-            <div className="col">
-              <h3 className="title">Title</h3>
+            {/* Row One */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
               <ul>
-                <li><a href="#">Sub-menu 1</a>
+                <li><a href="#">standard dummy</a>
                 </li>
-                <li><a href="#">Sub-menu 2</a>
+                <li><a href="#">text ever since the</a>
                 </li>
-                <li><a href="#">Sub-menu 3</a>
-            </li>
-       </ul>
-        </div>
-        <div className="col">
-          <h3  className="title">Title</h3>
-          <ul>
-            <li><a href="#">Sub-menu 1</a>
-            </li>
-            <li><a href="#">Sub-menu 2</a>
-            </li>
-            <li><a href="#">Sub-menu 3</a>
-            </li>
-          </ul>
-        </div>
-        <div className="col">
-          <h3  className="title">Title</h3>
-          <ul>
-            <li><a href="#">Sub-menu 1</a>
-            </li>
-            <li><a href="#">Sub-menu 2</a>
-            </li>
-            <li><a href="#">Sub-menu 3</a>
-            </li>
-          </ul>
-        </div>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+            {/* Row Two */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+             {/* Row Three */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
+    </li>
+        <li className="vertical "> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  Gifts & Toys</a>
 
-      </div>
+        <div className="megadrop">
+            {/* Row One */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+            {/* Row Two */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+             {/* Row Three */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
 
     </li>
-        <li className="vertical "> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  Fashion & Accessories</a>
 
-      <div className="megadrop">
-
-      </div>
+        <div className="megadrop">
+            {/* Row One */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+            {/* Row Two */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+             {/* Row Three */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
 
     </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  Electronic</a>
 
-      <div className="megadrop">
-
-      </div>
+        <div className="megadrop">
+            {/* Row One */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+            {/* Row Two */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+             {/* Row Three */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
 
     </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  Health & Beauty</a>
 
-      <div className="megadrop">
-
-      </div>
-
-    </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
-
-<div className="megadrop">
-
-</div>
+        <div className="megadrop">
+            {/* Row One */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+            {/* Row Two */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+             {/* Row Three */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
 
 </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  Smartphone & Tablets</a>
 
-<div className="megadrop">
-
-</div>
+        <div className="megadrop">
+            {/* Row One */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+            {/* Row Two */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+             {/* Row Three */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
 
 </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  Health & Beauty</a>
 
-<div className="megadrop">
-
-</div>
+        <div className="megadrop">
+            {/* Row One */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+            {/* Row Two */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+             {/* Row Three */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
 
 </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  Bedroom</a>
 
-<div className="megadrop">
-
-</div>
+        <div className="megadrop">
+            {/* Row One */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+            {/* Row Two */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+             {/* Row Three */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
 
 </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  Metallurgy</a>
 
-<div className="megadrop">
-
-</div>
+        <div className="megadrop">
+            {/* Row One */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+            {/* Row Two */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+             {/* Row Three */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
 
 </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  BURGERS</a>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  Health & Beauty</a>
 
-      <div className="megadrop">
-
-      </div>
+        <div className="megadrop">
+            {/* Row One */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+            {/* Row Two */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+             {/* Row Three */}
+            <div className="row">
+              <div className="col">
+                <h3 className="title">Lorem Ipsum One</h3>
+                <ul>
+                  <li><a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li><a href="#">is simply dummy</a>
+                  </li>
+                  <li><a href="#">text of the printing</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+                <h3  className="title">Lorem Ipsum Two</h3>
+                <ul>
+                  <li><a href="#">and typesetting industry</a>
+                  </li>
+                  <li><a href="#">Lorem Ipsum has</a>
+                  </li>
+                  <li><a href="#">been the industry's</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col">
+              <h3  className="title">Lorem Ipsum Three</h3>
+              <ul>
+                <li><a href="#">standard dummy</a>
+                </li>
+                <li><a href="#">text ever since the</a>
+                </li>
+                <li><a href="#">when an unknown</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
 
     </li>
 

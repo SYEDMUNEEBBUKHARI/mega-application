@@ -31,7 +31,7 @@ console.log("windows",windows);
           <div className="content">
                 <div className="col">
                   <section>
-                    <h2>Featured 1</h2>
+                    <h2>Dummy Image</h2>
                     <a href="#" className="img-wrapper"
                       ><span className="img"
                         ><img
@@ -43,41 +43,41 @@ console.log("windows",windows);
                 </div>
                 <div className="col">
                   <section>
-                    <h2>Featured 2</h2>
+                    <h2>Lorem Ipsum ?</h2>
                     <ul className="mega-links">
-                      <li><a href="#">Item 1</a></li>
-                      <li><a href="#">Item 2</a></li>
-                      <li><a href="#">Item 3</a></li>
-                      <li><a href="#">Item 4</a></li>
-                      <li><a href="#">Item 5</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
                     </ul>
                   </section>
                 </div>
                 <div className="col">
                   <section>
-                    <h2>Featured 3</h2>
+                  <h2>Lorem Ipsum ?</h2>
                     <ul className="mega-links">
-                      <li><a href="#">Item 1</a></li>
-                      <li><a href="#">Item 2</a></li>
-                      <li><a href="#">Item 3</a></li>
-                      <li><a href="#">Item 4</a></li>
-                      <li><a href="#">Item 5</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
                     </ul>
                   </section>
                 </div>
                 <div className="col">
                   <section>
-                    <h2>Featured 4</h2>
+                  <h2>Lorem Ipsum ?</h2>
                     <ul className="mega-links">
-                      <li><a href="#">Item 1</a></li>
-                      <li><a href="#">Item 2</a></li>
-                      <li><a href="#">Item 3</a></li>
-                      <li><a href="#">Item 4</a></li>
-                      <li><a href="#">Item 5</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
                     </ul>
                   </section>
                 </div>
-              </div>
+          </div>
             </div>
             </NavLink>
         </Menu.Item>
@@ -88,7 +88,7 @@ console.log("windows",windows);
           <div className="content">
                 <div className="col">
                   <section>
-                    <h2>Featured 1</h2>
+                    <h2>Dummy Image</h2>
                     <a href="#" className="img-wrapper"
                       ><span className="img"
                         ><img
@@ -100,37 +100,37 @@ console.log("windows",windows);
                 </div>
                 <div className="col">
                   <section>
-                    <h2>Featured 2</h2>
+                  <h2>Lorem Ipsum ?</h2>
                     <ul className="mega-links">
-                      <li><a href="#">Item 1</a></li>
-                      <li><a href="#">Item 2</a></li>
-                      <li><a href="#">Item 3</a></li>
-                      <li><a href="#">Item 4</a></li>
-                      <li><a href="#">Item 5</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
                     </ul>
                   </section>
                 </div>
                 <div className="col">
                   <section>
-                    <h2>Featured 3</h2>
+                  <h2>Lorem Ipsum ?</h2>
                     <ul className="mega-links">
-                      <li><a href="#">Item 1</a></li>
-                      <li><a href="#">Item 2</a></li>
-                      <li><a href="#">Item 3</a></li>
-                      <li><a href="#">Item 4</a></li>
-                      <li><a href="#">Item 5</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
                     </ul>
                   </section>
                 </div>
                 <div className="col">
                   <section>
-                    <h2>Featured 4</h2>
+                  <h2>Lorem Ipsum ?</h2>
                     <ul className="mega-links">
-                      <li><a href="#">Item 1</a></li>
-                      <li><a href="#">Item 2</a></li>
-                      <li><a href="#">Item 3</a></li>
-                      <li><a href="#">Item 4</a></li>
-                      <li><a href="#">Item 5</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
                     </ul>
                   </section>
                 </div>

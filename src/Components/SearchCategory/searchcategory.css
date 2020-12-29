@@ -1,8 +1,9 @@
 .category-flex{
     position:relative;
-    top:60px;
-    left: 104px;
+    top:8px;
+    left: 293px;
     display:flex;
+    z-index:10000;
 }
 .input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control, .input-group>.form-control-plaintext {
     position: relative;
@@ -51,4 +52,9 @@
   
     overflow: hidden;
     position: relative;
+  }
+
+
+  .custom-select:focus{
+    box-shadow: none !important;
   }

@@ -39,11 +39,13 @@ console.log("windows",windows);
             <div className="set-search">
                <SearchCategory />
             </div>
-            <div className= "makeflex loginorregister">
-               <div><AiOutlineLock /> Login or Register
+            <div className="makeflex loginorregister">
+               <div className="mr-3">
+                 <span className="login-click" onClick={handelLogin}><AiOutlineLock />Login</span>
+                  <span className="register-click" onClick={handelRegistration}>  or Register <br/> <FaPhoneSquareAlt /> Hotline (+123)1 234 567 </span>
                 </div>
-               <div >|</div>
-               <div><FaPhoneSquareAlt /> Hotline (+123)4 567 890 </div>
+               {/* <div >|</div> */}
+               
             </div>
           </div>
 

@@ -20,10 +20,9 @@ function Slider(props) {
     
     return (
        <>
-       <div className="">
+       <div className="set-margin">
           <Row className="handle-row ">
-         
-      <Col span={props.windowWidth<770 ? 24:24}>
+        <Col span={props.windowWidth<770 ? 24:24}>
 
 
       <Carousel autoplay >

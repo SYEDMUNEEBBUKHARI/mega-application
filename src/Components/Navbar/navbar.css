@@ -89,14 +89,13 @@ a:hover {
   background: #ffffff;
   /* left: 59px;
   width: 59vw; */
-  left: -142px;
-  width: 49vw;
+  left: 0;
+  width: 770px !important;
   top: 80px;
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease;
   z-index:2000;
-  
 }
 .mega-menu .content {
   background: #ffffff;
@@ -162,11 +161,10 @@ a:hover {
 }
 .col .mega-links li,
 .col .mega-links li a {
-  padding: 0 1rem;        
+  padding: 0;        
   background-color: white;
   color:#00A29E;
-
-
+  margin-bottom: -18px;
 }
 
 .content .col .read-more:hover {
@@ -253,7 +251,7 @@ span.img{background-color: white;}
 .ant-menu-horizontal > .ant-menu-item a{
   font-size: 14px;
   background: #ffffff;
-  color:#ffffff !important;
+  color:#ffffff;
 }
 
 .site-brand img{
@@ -295,15 +293,14 @@ adjust-ant{
 
 }
 a.cstm-clr{
-  background-color: rgb(28, 28, 155) !important;
-
-color:rgb(255, 255, 255) !important;}
-
+  background-color: rgb(11 24 66) !important;
+  color:rgb(255, 255, 255) !important;
+}
 
 .ant-layout-header .ant-menu {
   line-height: inherit;
   margin-top: 1px;
-  background-color: rgb(28, 28, 155);
+  background-color: rgb(11 24 66);
 }
 .register{
   margin-left:79%;
