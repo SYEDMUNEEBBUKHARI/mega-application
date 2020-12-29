@@ -1,0 +1,54 @@
+.category-flex{
+    position:relative;
+    top:60px;
+    left: 104px;
+    display:flex;
+}
+.input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control, .input-group>.form-control-plaintext {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    height: 45px;
+    border: 1px solid black;
+    min-width: 0;
+    border-radius:0px;
+    margin-bottom: 0;
+}
+
+.search-form .search-input:focus{
+    outline: none !important;
+}
+
+.search-input {
+    /* take full width of form */
+    width: 100%;
+  }
+  
+  .search-button {
+    position: absolute; 
+    /* push outside the form, hiding it */
+    left: 100%;
+    width: var(--searchButtonWidth);
+  }
+
+  .search-input:not(:placeholder-shown) ~ .search-button {
+    /* pull back the negative value of the width */
+    transform: translateX(calc(-1 * var(--searchButtonWidth)));
+  }
+  .search-button {
+    position: absolute; 
+    left: 100%;
+    width: var(--searchButtonWidth);
+    /* animate it */
+    transition: 0.2s;
+  }
+  
+
+
+.search-form {
+    /* we'll re-use this number, so DRYing up */
+    --searchButtonWidth: 75px;
+  
+    overflow: hidden;
+    position: relative;
+  }

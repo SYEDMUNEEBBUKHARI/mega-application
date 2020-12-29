@@ -1,9 +1,9 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import { Carousel } from 'antd';
-import Slider1 from "../../Assets/images/slider-1.jpg";
-import Slider2 from "../../Assets/images/slider-1.jpg";
-import Slider3 from "../../Assets/images/slider-1.jpg";
+import Slider1 from "../../Assets/images/MainSlider.jpg";
+import Slider2 from "../../Assets/images/MainSlider.jpg";
+import Slider3 from "../../Assets/images/MainSlider.jpg";
 import windowSize from 'react-window-size';
 
 
@@ -20,8 +20,8 @@ function Slider(props) {
     
     return (
        <>
-       <div className="container-fluid">
-          <Row className="handle-row ml-5">
+       <div className="">
+          <Row className="handle-row ">
          
       <Col span={props.windowWidth<770 ? 24:24}>
 

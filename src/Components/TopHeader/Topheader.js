@@ -7,8 +7,10 @@ import {AiOutlineLock} from "react-icons/ai";
 import GeneralCategory from "../generalCategory/General";
 import {FaPhoneSquareAlt} from "react-icons/fa";
 import { Layout, Menu, Breadcrumb } from 'antd';
-import Logo from "../../Assets/images/megalogo.jpg";
+import SearchCategory from "../SearchCategory/SearchCategory";
+import Logo from "../../Assets/images/megalogo.png";
 const { Header, Content, Footer } = Layout;
+
 function Topheader(props){
 //858
 const [windows,setWindow]=useState(props.windowWidth);
@@ -20,11 +22,14 @@ console.log("windows",windows);
     return(
       <>
       <div className="login-title">
-           <div className="adjust-top container-fluid">
+           <div className="makeflex  container-fluid">
            <div className="site-brand">
               <a href="">  <img src={Logo} className="logo" /> </a>
             </div>
-            <div className="register makeflex">
+            <div className="set-search">
+               <SearchCategory />
+            </div>
+            <div className= "makeflex loginorregister">
                <div><AiOutlineLock /> Login or Register
                 </div>
                <div >|</div>

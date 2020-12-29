@@ -5,7 +5,12 @@
 }
 
 
-.makeflex-head{
-    width:500px;
-    display:flex;
-}
+
+
+.makeflex-head {
+    width: 100%;
+    height: 186px;
+    display: flex;
+    padding-top: 41px;
+    background-color: rgb(28, 28, 155);
+  }

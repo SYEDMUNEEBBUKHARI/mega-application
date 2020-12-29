@@ -1,5 +1,5 @@
 .login-title{
-background-color:#122331;
+background-color:#ffffff;
 height:50px;
 margin-bottom:10px;
 }
@@ -11,4 +11,24 @@ margin-bottom:10px;
 .site-brand{
     position:relative;
     top:6px
+}
+
+.makeflex{
+    display:flex;
+    justify-content: start;
+    
+}
+
+.loginorregister{
+position:relative;
+left:35%;
+top:225%;
+color:rgb(0, 0, 0);
+}
+
+.set-search{
+    height:500px;
+    position:relative;
+   top:-57px;
+   left:150px;
 }

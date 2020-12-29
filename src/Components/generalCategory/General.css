@@ -180,8 +180,8 @@ h3.login-title{
       margin-right:10px;
   }
   .categories {
-    background-color: #00A29E;
-    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    color:#00A29E;
     width: 214px;
     height: 50px;
     position: relative;
@@ -189,8 +189,8 @@ h3.login-title{
     
 }
 .category-position {
-    background-color: #00A29E;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #00A29E;
     font-size: 22px;
     font-weight: 500;
     position: relative;
