@@ -7,12 +7,8 @@ import {AiOutlineLock} from "react-icons/ai";
 import GeneralCategory from "../generalCategory/General";
 import {FaPhoneSquareAlt} from "react-icons/fa";
 import { Layout, Menu, Breadcrumb } from 'antd';
-import Logo from "../../Assets/images/megalogo.jpg";
-import { history } from "react-router-dom";
-
-
-
-
+import SearchCategory from "../SearchCategory/SearchCategory";
+import Logo from "../../Assets/images/megalogo.png";
 const { Header, Content, Footer } = Layout;
 
 function Topheader(props){
@@ -36,13 +32,15 @@ console.log("windows",windows);
     return(
       <>
       <div className="login-title">
-           <div className="adjust-top container-fluid">
+           <div className="makeflex  container-fluid">
            <div className="site-brand">
               <a href="">  <img src={Logo} className="logo" /> </a>
             </div>
-            <div className="register makeflex">
-               <div>
-                  <span className="login-click" onClick={handelLogin}><AiOutlineLock /> Login</span> or <span className="register-click" onClick={handelRegistration}>Register</span>
+            <div className="set-search">
+               <SearchCategory />
+            </div>
+            <div className= "makeflex loginorregister">
+               <div><AiOutlineLock /> Login or Register
                 </div>
                <div >|</div>
                <div><FaPhoneSquareAlt /> Hotline (+123)4 567 890 </div>

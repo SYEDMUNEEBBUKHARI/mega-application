@@ -1,6 +1,5 @@
 import React from 'react';
 import './UserLogin.css';
-import { RiHome4Line, RiArrowDropRightLine } from "react-icons/ri";
 
 
 
@@ -10,8 +9,8 @@ function UserLogin() {
         <React.Fragment>
             <div className="container-fluid">
                 <ul className="breadcrumb">
-                    <li><a href="#"><RiHome4Line /><RiArrowDropRightLine style={{fontSize: '27px',}} /></a></li>
-                    <li><a href="#">Account</a></li><RiArrowDropRightLine style={{fontSize: '27px',}} />
+                    <li><a href="#"><i className="fa fa-home"></i></a></li>
+                    <li><a href="#">Account</a></li>
                     <li><a href="#">Login</a></li>
                 </ul>
 		
@@ -27,7 +26,7 @@ function UserLogin() {
 									<p>By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.</p>
 								</div>
 								<div className="bottom-form">
-									<a href="#" className="btn btn-default pull-right">Continue</a>
+									<a href="#" className="btn btn-default btn-color pull-right">Continue</a>
 								</div>
 							</div>
 							
@@ -47,7 +46,7 @@ function UserLogin() {
 									</div>
 									<div className="bottom-form">
 										<a href="#" className="forgot">Forgotten Password</a>
-										<input type="submit" value="Login" className="btn btn-default pull-right"/>
+										<input type="submit" value="Login" className="btn btn-default btn-color pull-right"/>
 									</div>
 							</form>
 

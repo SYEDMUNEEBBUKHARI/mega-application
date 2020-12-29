@@ -7,6 +7,7 @@ import {AiOutlineLock} from "react-icons/ai";
 import GeneralCategory from "../generalCategory/General";
 import {FaPhoneSquareAlt} from "react-icons/fa";
 import { Layout, Menu, Breadcrumb } from 'antd';
+import Category from "../Category/Category";
 import Logo from "../../Assets/images/Mega.jpg";
 const { Header, Content, Footer } = Layout;
 function Navbar(props){
@@ -23,7 +24,7 @@ console.log("windows",windows);
    <Header className="makeflex">
      
       {windows>850?
-      <Menu className="adjust-ant"  mode="horizontal" defaultSelectedKeys={['2']}>
+      <Menu className="adjust-ant"  mode="horizontal" defaultSelectedKeys={['2']} >
        <Menu.Item key="1">
        <NavLink className="cstm-clr" activeClassName="nextclr" to="/"  > HOME
           <div className="mega-menu">

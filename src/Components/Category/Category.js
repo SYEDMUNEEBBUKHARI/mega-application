@@ -4,6 +4,7 @@ import {FaHamburger} from "react-icons/fa";
 import {AiOutlineSearch} from "react-icons/ai";
 import left from "../../Assets/images/4.jpg";
 import "./category.css";
+import {useHistory} from "react-router-dom";
 import {HiOutlineShoppingCart} from "react-icons/hi";
 import CategoryDraw from "../CategorySidedraw/CategorySideDraw";
 import { RiShoppingCart2Line, RiArrowGoForwardLine } from "react-icons/ri";
@@ -11,10 +12,17 @@ import {FiRefreshCcw} from "react-icons/fi"
 import {ImHeart} from "react-icons/im";
 import {FiChevronDown,FiChevronUp} from "react-icons/fi";
 import { Input ,Select} from 'antd';
-
 import { Menu, Dropdown } from 'antd';
 
+function handleViewCart(){
 
+  // history.push('/viewcart');
+       }
+      function  checkOut(){
+
+  // history.push('/checkout');
+         
+       }
 const menu = (
   <Menu>
     <Menu.Item>
@@ -87,8 +95,8 @@ const menu = (
               </tbody>
              </table>
                   <div className="text-center">
-                       <button class="btn view-cart"  ><RiShoppingCart2Line />View Cart</button>&nbsp;&nbsp;&nbsp; 
-                        <button class="btn btn-mega checkout-cart" ><RiArrowGoForwardLine />Checkout</button> 
+                       <button class="btn view-cart" onClick={handleViewCart} ><RiShoppingCart2Line />View Cart</button>&nbsp;&nbsp;&nbsp; 
+                        <button class="btn btn-mega checkout-cart" onClick={checkOut}><RiArrowGoForwardLine />Checkout</button> 
                      </div>
                
            </div>
@@ -118,45 +126,24 @@ const[show,setShow]=useState('show');
 }
 const [windows,setWindow]=useState(props.windowWidth);
 
+
      useEffect(()=>{
   setWindow(props.windowWidth);
 console.log("windows",windows);
 
      },[windows,props.windowWidth])
-            const onSearch=()=>{
-
-            }
-
-            const handleCategoryChange=()=>{
-
-            }
+            
+    
+          
 return(
 <>
-<div className="handlesearch">
-<div className="makeflex">
+
    
-<div></div>
-<div className="category-flex">
-{windows>850?  <div class="input-group mb-3">
- 
-  <select class="custom-select give-categories" id="inputGroupSelect01">
-    <option selected>Category...</option>
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
-  </select>
-</div>
-  :""}
-  <div>
-<form className="search-form">
- {windows>850? 
- <> <input id="search" type="search" className="search-input" placeholder="Enter search terms..." />
-  <button className="search-button">Search</button></>
-  :""}
-</form>
-</div>
-    </div>
-    <div className="make-flex">
+
+
+
+    
+    <div className="make-flex handleallflex">
 <div className={windows>850 ? "flex-refresh":"hide"}><FiRefreshCcw className="icon-refresh" /></div>
 <div className={windows>850 ? "flex-refresh-heart":"hide"}><ImHeart className="icon-refresh" /></div>
 <div className="shopping">
@@ -164,17 +151,12 @@ return(
     <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
     <HiOutlineShoppingCart  className="shop-icon"/>
     </a>
-  </Dropdown> {windows>850 ? <>My Cart <span>-$192.0</span></>:""}</div>
-
+  </Dropdown> </div>
 </div>
 
-<div></div>
 
-</div>
-<div  >
  {/* <Slider /> */}
- </div>
- </div>
+ 
 </>
 );
 }

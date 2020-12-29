@@ -1,5 +1,16 @@
 
 
 .handleflex{
-    width:350px;
+    width:200px;
 }
+
+
+
+
+.makeflex-head {
+    width: 100%;
+    height: 186px;
+    display: flex;
+    padding-top: 41px;
+    background-color: rgb(28, 28, 155);
+  }

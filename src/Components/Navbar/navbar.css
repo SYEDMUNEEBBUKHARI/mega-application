@@ -253,24 +253,18 @@ span.img{background-color: white;}
 .ant-menu-horizontal > .ant-menu-item a{
   font-size: 14px;
   background: #ffffff;
-  color:#122331 !important;
+  color:#ffffff !important;
 }
 
 .site-brand img{
   width: 120px;
 }
-  header.ant-layout-header {
-    height: 64px;
-    padding: 0 50px;
-    color: #122331;
-    line-height: 64px;
-    background: #ffffff !important;
-    width:700px;
-}
-
+ 
 
 .ant-layout-header .ant-menu {
- 
+  line-height: inherit;
+  position: relative;
+  top: 10px;
 
 }
 
@@ -293,8 +287,26 @@ li.ant-menu-item:hover .mega-menu {
  
 }
 
+adjust-ant{
+  background-color: rgb(255, 255, 255) !important;
+  color:white;
+  position: relative;
+  top:70px;
+
+}
+a.cstm-clr{
+  background-color: rgb(28, 28, 155) !important;
+
+color:rgb(255, 255, 255) !important;}
+
+
+.ant-layout-header .ant-menu {
+  line-height: inherit;
+  margin-top: 1px;
+  background-color: rgb(28, 28, 155);
+}
 .register{
-  margin-left:65%;
+  margin-left:79%;
   font-size:13px;
 }
 .ant-layout-header .ant-menu {
@@ -326,4 +338,14 @@ display:none;
 .ant-layout-header .ant-menu {
   line-height: inherit;
   margin-top:-2px;
+}
+
+header.ant-layout-header {
+  height: 64px;
+  padding: 0 50px;
+  color: #ffffff;
+  line-height: 64px;
+  width: 700px;
+  position: absolute;
+  left: 380px;
 }
