@@ -24,7 +24,7 @@ Enter your gift certificate code here
 
 function ViewCart() {
     return (
-        <div className="main-container container-fluid">
+        <div className="main-container container-fluid view-carts">
             <ul className="breadcrumb">
                 <li><a className="cstm-width" href="#"><RiHome4Line /><RiArrowDropRightLine style={{fontSize: '27px',}} /></a></li>
                 <li><a href="#">Shopping Cart</a></li>

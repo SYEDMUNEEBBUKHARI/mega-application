@@ -24,6 +24,7 @@ ul.breadcrumb li:last-child {
 }
 ul.breadcrumb li:last-child a {
     color: #ff3c20 !important;
+    width: 100%;
 }
 
 .cstm-width{
@@ -157,6 +158,7 @@ a, a:visited, a:active, a:link, a:focus {
 .form-selects{
     width: 82%;
     height: 31px;
+    padding: 0 4px;
     border-color: lightgray;
 }
 
@@ -198,8 +200,8 @@ a, a:visited, a:active, a:link, a:focus {
     box-shadow: none !important;
 }
 
-.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow{
-    left: -111px !important;
+.view-carts .ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow{
+    left: -33px !important;
 }
 
 

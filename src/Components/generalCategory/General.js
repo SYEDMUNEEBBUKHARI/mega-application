@@ -55,7 +55,7 @@ return(
      <span className="category-position"> <HiShoppingCart className="cate-icons" />All Categories {chevron ? chevup : chevdown}</span></div>
 
       <ul className={`menu ${show}`}>
-        <li className="vertical first"><a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon"/>  Magna Food</a>
+        <li className="vertical first"><a  className="vertical-menu-item" href="#"> Magna Food</a>
           <div className="megadrop">
             {/* Row One */}
             <div className="row">
@@ -167,7 +167,7 @@ return(
             </div>
           </div>
     </li>
-        <li className="vertical "> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  Gifts & Toys</a>
+        <li className="vertical "> <a  className="vertical-menu-item" href="#">  Gifts & Toys</a>
 
         <div className="megadrop">
             {/* Row One */}
@@ -281,7 +281,7 @@ return(
           </div>
 
     </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  Fashion & Accessories</a>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#">  Fashion & Accessories</a>
 
         <div className="megadrop">
             {/* Row One */}
@@ -395,7 +395,7 @@ return(
           </div>
 
     </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  Electronic</a>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#">  Electronic</a>
 
         <div className="megadrop">
             {/* Row One */}
@@ -509,7 +509,7 @@ return(
           </div>
 
     </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  Health & Beauty</a>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#">  Health & Beauty</a>
 
         <div className="megadrop">
             {/* Row One */}
@@ -623,7 +623,7 @@ return(
           </div>
 
 </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  Smartphone & Tablets</a>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#">  Smartphone & Tablets</a>
 
         <div className="megadrop">
             {/* Row One */}
@@ -737,7 +737,7 @@ return(
           </div>
 
 </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  Health & Beauty</a>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#">  Health & Beauty</a>
 
         <div className="megadrop">
             {/* Row One */}
@@ -851,7 +851,7 @@ return(
           </div>
 
 </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  Bedroom</a>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#">  Bedroom</a>
 
         <div className="megadrop">
             {/* Row One */}
@@ -965,7 +965,7 @@ return(
           </div>
 
 </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  Metallurgy</a>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#">  Metallurgy</a>
 
         <div className="megadrop">
             {/* Row One */}
@@ -1079,7 +1079,7 @@ return(
           </div>
 
 </li>
-        <li className="vertical"> <a  className="vertical-menu-item" href="#"><FaHamburger className="menu-icon" />  Health & Beauty</a>
+        <li className="vertical"> <a  className="vertical-menu-item" href="#">  Health & Beauty</a>
 
         <div className="megadrop">
             {/* Row One */}

@@ -35,7 +35,7 @@ const menu = (
                                <img src={left} style={{width:'70px',}}  alt="Yutculpa ullamcon" title="Yutculpa ullamco" className="preview mr-2"/>
                       </a>
                             </td>
-                           <td className="text-left"> <a className="cart_product_name" href="product.html">Yutculpa<br /> ullamco</a> 
+                           <td className="text-left"> <a className="cart_product_name" href="product.html">Lorem ipsum</a> 
                          </td>
                    <td className="text-center">x1</td>
                    <td className="text-center">$80.00</td>
@@ -52,7 +52,7 @@ const menu = (
                                      <img src={left} style={{width:'70px',}} alt="Xancetta bresao" title="Xancetta bresao" className="preview mr-2" />
                                 </a>
                               </td>
-                         <td className="text-left"> <a className="cart_product_name" href="product.html">Xancetta bresao</a> 
+                         <td className="text-left"> <a className="cart_product_name" href="product.html">Lorem ipsum two</a> 
                                </td>
                         <td className="text-center">x1</td>
                               <td className="text-center">$60.00</td>

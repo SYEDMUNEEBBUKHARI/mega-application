@@ -684,6 +684,10 @@ font-size:19px;
 
 .loginorregister{
     position: relative;
-    right: -444px;
+    right: -662px;
     top: 9px;
+}
+
+.cart_product_name{
+    font-size: 15px !important;
 }

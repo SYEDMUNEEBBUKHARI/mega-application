@@ -1,0 +1,28 @@
+.inner-faq-body .faq-title{
+    font-weight: 700;
+}
+
+.collapse-questions .ant-collapse-content-box p{
+    background: #fafafa;
+}
+
+.ant-collapse-header span{
+    width: 8% !important;
+}
+
+.collapse-questions .ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow{
+    left: 0 !important;
+}
+
+.collapse-questions .ant-collapse > .ant-collapse-item > .ant-collapse-header{
+    font-weight: bold;
+    padding-left: 50px !important;
+}
+.ant-collapse-borderless > .ant-collapse-item{
+    border-bottom: 3px solid #d9d9d9 !important;
+}
+
+.ant-collapse-borderless > .ant-collapse-item > .ant-collapse-content{
+    border-top: 1px solid lightgray !important;
+}
+

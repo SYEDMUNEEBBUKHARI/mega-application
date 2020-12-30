@@ -42,7 +42,7 @@ console.log("windows",windows);
             <div className="makeflex loginorregister">
                <div className="mr-3">
                  <span className="login-click" onClick={handelLogin}><AiOutlineLock />Login</span>
-                  <span className="register-click" onClick={handelRegistration}>  or Register <br/> <FaPhoneSquareAlt /> Hotline (+123)1 234 567 </span>
+                  <span className="register-click" onClick={handelRegistration}>  / Register <br/> <FaPhoneSquareAlt /> Hotline (+123)1 234 567 </span>
                 </div>
                {/* <div >|</div> */}
                

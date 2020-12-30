@@ -1,9 +1,9 @@
 .category-flex{
-    position:relative;
-    top:8px;
-    left: 293px;
-    display:flex;
-    z-index:10000;
+    position: relative;
+    top: 14px;
+    left: 393px;
+    display: flex;
+    z-index: 10000;
 }
 .input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control, .input-group>.form-control-plaintext {
     position: relative;
@@ -27,7 +27,6 @@
   
   .search-button {
     position: absolute; 
-    /* push outside the form, hiding it */
     left: 100%;
     width: var(--searchButtonWidth);
   }
@@ -38,9 +37,9 @@
   }
   .search-button {
     position: absolute; 
+    border: none;
     left: 100%;
     width: var(--searchButtonWidth);
-    /* animate it */
     transition: 0.2s;
   }
   

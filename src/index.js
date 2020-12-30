@@ -5,10 +5,32 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'antd/dist/antd.css';
+import { BackTop } from 'antd';
+import { FiArrowUp } from "react-icons/fi";
+
+
+
+const style = {
+  height: 40,
+  width: 40,
+  lineHeight: '40px',
+  borderRadius: 4,
+  backgroundColor: '#1088e9',
+  color: '#fff',
+  textAlign: 'center',
+  fontSize: 14,
+};
+
 ReactDOM.render(
+  <>
+    <BackTop>
+      <div style={style}><FiArrowUp /></div>
+    </BackTop>
+  
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+  </>,
   document.getElementById('root')
 );
 

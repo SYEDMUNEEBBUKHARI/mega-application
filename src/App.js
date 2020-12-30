@@ -13,7 +13,9 @@ import ViewCart from "./Components/Carts/ViewCart/ViewCart";
 import Checkout from "./Components/Carts/Checkout/Checkout";
 import UserLogin from "./Components/UserLogin/UserLogin";
 import RegisterForm from "./Components/Registration/RegisterForm";
-
+import Faq from "./Components/Faq/Faq";
+import SiteMap from "./Components/SiteMap/SiteMap";
+import ContactUs from "./Components/ContactUs/ContactUs";
 
 
 function App() {
@@ -37,6 +39,9 @@ function App() {
       <Route path="/checkout"  component={Checkout}/>
       <Route path="/userlogin"  component={UserLogin}/>
       <Route path="/registerform"  component={RegisterForm}/>
+      <Route path="/faq"  component={Faq}/>
+      <Route path="/sitemap"  component={SiteMap}/>
+      <Route path="/contactus"  component={ContactUs}/>
       <Redirect to="/" />
     </Switch>
     

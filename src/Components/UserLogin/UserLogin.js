@@ -1,7 +1,6 @@
 import React from 'react';
 import './UserLogin.css';
-
-
+import { RiHome4Line, RiArrowDropRightLine } from "react-icons/ri";
 
 
 function UserLogin() {
@@ -9,9 +8,8 @@ function UserLogin() {
         <React.Fragment>
             <div className="container-fluid">
                 <ul className="breadcrumb">
-                    <li><a href="#"><i className="fa fa-home"></i></a></li>
-                    <li><a href="#">Account</a></li>
-                    <li><a href="#">Login</a></li>
+                    <li><a href="#"><RiHome4Line /><RiArrowDropRightLine style={{fontSize: '27px',}} />Account</a></li>
+                    <RiArrowDropRightLine style={{fontSize: '27px',}} /><li><a href="#">Login</a></li>
                 </ul>
 		
 		    <div className="row mb-5">
@@ -37,11 +35,11 @@ function UserLogin() {
 										<p><strong>I am a returning customer</strong></p>
 										<div className="form-group">
 											<label className="control-label " for="input-email">E-Mail Address</label>
-											<input type="text" name="email" value="" id="input-email" className="form-control"/>
+											<input type="text" name="email" id="input-email" className="form-control"/>
 										</div>
 										<div className="form-group">
-											<label className="control-label " for="input-password">Password</label>
-											<input type="password" name="password" value="" id="input-password" className="form-control" />
+											<label className="control-label" for="input-password">Password</label>
+											<input type="password" name="password" id="input-password" className="form-control" />
 										</div>
 									</div>
 									<div className="bottom-form">

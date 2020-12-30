@@ -97,6 +97,14 @@ a:hover {
   transition: all 0.3s ease;
   z-index:2000;
 }
+
+.pages-menu{
+  width: 407px !important;
+}
+.pages-menu .content{
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+
 .mega-menu .content {
   background: #ffffff;
   padding: 1rem;
@@ -342,7 +350,16 @@ header.ant-layout-header {
   padding: 0 50px;
   color: #ffffff;
   line-height: 64px;
-  width: 700px;
+  width: 780px;
   position: absolute;
-  left: 380px;
+  left: 350px;
+}
+
+.ant-menu-item a svg{
+  font-size: 9px !important;
+  margin: 0 3px !important;
+}
+
+.category-menus{
+  left: -398px !important;
 }

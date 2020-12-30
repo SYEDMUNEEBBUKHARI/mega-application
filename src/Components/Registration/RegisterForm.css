@@ -1,0 +1,86 @@
+#content .title{
+    font-weight: 700;
+    margin-bottom: 0 !important;
+}
+
+#content p a{
+    font-size: 14px;
+    border-bottom: none;
+}
+
+.personal-details .top-title{
+    border: 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.address-details .top-title{
+    border: 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.password-details .top-title{
+    border: 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.newsletter .top-title{
+    border: 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.personal-data-labels{
+    width: 7%; 
+    margin-left:131px;
+    font-size: 13px;
+}
+
+.personal-data-input{
+    width: 82% !important;
+    height: 31px !important;
+    border: 1px solid lightgray;
+    padding: 0 7px;
+}
+
+.personal-data-input:focus{
+    outline: none;
+}
+
+.password-data-labels{
+    width: 9%;
+    margin-left: 105px;
+    font-size: 13px;
+}
+
+.horizontal-btn .ant-radio{
+    width: 7% !important;
+}
+
+.horizontal-btn .ant-radio-inner{
+    width: 16px !important;
+}
+
+.ant-radio-wrapper-checked{
+    position: relative !important;
+    right: -3px !important;
+}
+
+.horizontal-btn .ant-radio-wrapper{
+    margin-right: -360px !important;
+}
+
+.box .p-right{
+    text-align: right;
+}
+.continues{
+    width: 10% !important;
+    height: 36px !important;
+    padding: 0 !important;
+    font-size: 14px !important;
+}
+.horizontal-btn {
+    margin-left: 111px;
+}
