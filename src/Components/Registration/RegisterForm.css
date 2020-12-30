@@ -43,6 +43,7 @@
     height: 31px !important;
     border: 1px solid lightgray;
     padding: 0 7px;
+    border-radius: 5px;
 }
 
 .personal-data-input:focus{

@@ -1,0 +1,100 @@
+.title-about-us {
+    background: url(../../Assets/images//bg-title-about.png) repeat-x left 12px;
+    margin-bottom: 17px;
+}
+.title-about-us h2 {
+    background: #fff;
+    display: inline-block;
+    font-size: 22px;
+    padding: 0 25px 6px 0;
+    font-weight: 300;
+    color: #333;
+}
+
+.why-list{
+    padding: 0 6px;
+    font-size: 22px;
+}
+
+
+.why-list .right-line{
+    font-size: 14px;
+}
+
+.image-about-us {
+    float: left;
+    width: 270px; 
+    padding-top: 6px;
+}
+.des-about-us {
+    margin-left: 300px !important;
+    line-height: 18px;
+}
+
+.our-member {
+    clear: both;
+    padding-top: 30px;
+}
+.our-member .title-about-us {
+    background: url(../../Assets/images//bg-title-about.png) repeat-x left 12px;
+    margin-bottom: 17px;
+    text-align: center;
+}
+.our-member .title-about-us h2 {
+    padding: 0 15px 6px 15px;
+    font-size: 22px;
+    font-weight: 300;
+    color: #333;
+}
+.our-member .short-des {
+    text-align: center;
+    color: #909090;
+    margin-bottom: 35px;
+}
+.our-member .respl-item {
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+.our-member .respl-item .item-inner {
+    padding: 20px;
+    display: inline-block;
+}
+.our-member .respl-item .w-image-box {
+    float: left;
+    overflow: hidden;
+}
+.our-member .respl-item .info-member {
+    text-align: left;
+    margin-left: 185px;
+}
+.our-member .respl-item .info-member .cl-name {
+    margin-top: 0;
+}
+.our-member .respl-item .info-member .cl-name > a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #444;
+}
+.our-member .respl-item .info-member .cl-job {
+    padding: 5px 0px;
+    text-transform: uppercase;
+}
+.our-member .respl-item .info-member .cl-des {
+    color: #909090;
+    margin-bottom: 15px;
+}
+.our-member .respl-item .info-member li {
+    float: left;
+}
+.our-member .respl-item .info-member li .fa {
+    width: 29px;
+    height: 29px;
+    border: 1px solid #999;
+    line-height: 27px;
+    text-align: center;
+    color: #999;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+}

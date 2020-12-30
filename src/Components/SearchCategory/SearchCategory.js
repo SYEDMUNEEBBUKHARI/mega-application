@@ -11,7 +11,7 @@ const [windows,setWindow]=useState(props.windowWidth);
             <div className="category-flex">
             {windows>850?  <div class="input-group mb-3">
             
-            <select style={{width: '100%',fontSize: '12px',height: '33px',}} class="custom-select" id="inputGroupSelect01">
+            <select style={{width: '100%',fontSize: '12px',height: '33px',background: '#8080801f',}} class="custom-select" id="inputGroupSelect01">
                 <option selected>Category...</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
@@ -22,7 +22,7 @@ const [windows,setWindow]=useState(props.windowWidth);
             <div>
             <form className="search-form">
             {windows>850? 
-            <> <input id="search" type="search" className="search-input" style={{height: '33px', width: '260px',}} placeholder="Enter search terms..." />
+            <> <input id="search" type="search" className="search-input" style={{height: '33px', width: '260px',}} placeholder="Keyword here..." />
             <button className="search-button">Search</button></>
             :""}
             </form>

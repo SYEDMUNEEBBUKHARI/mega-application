@@ -34,6 +34,7 @@
   .search-input:not(:placeholder-shown) ~ .search-button {
     /* pull back the negative value of the width */
     transform: translateX(calc(-1 * var(--searchButtonWidth)));
+    margin: -7px 0;
   }
   .search-button {
     position: absolute; 

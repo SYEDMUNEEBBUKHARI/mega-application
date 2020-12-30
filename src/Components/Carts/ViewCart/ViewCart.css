@@ -160,6 +160,7 @@ a, a:visited, a:active, a:link, a:focus {
     height: 31px;
     padding: 0 4px;
     border-color: lightgray;
+    border-radius: 5px;
 }
 
 .form-selects:focus{
@@ -170,6 +171,7 @@ a, a:visited, a:active, a:link, a:focus {
     height: 31px !important;
     border: 1px solid lightgray;
     padding: 0 7px;
+    border-radius: 5px;
 }
 
 .post-input:focus{

@@ -16,6 +16,7 @@ import RegisterForm from "./Components/Registration/RegisterForm";
 import Faq from "./Components/Faq/Faq";
 import SiteMap from "./Components/SiteMap/SiteMap";
 import ContactUs from "./Components/ContactUs/ContactUs";
+import AboutUs from "./Components/AboutUs/AboutUs";
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
       <Route path="/faq"  component={Faq}/>
       <Route path="/sitemap"  component={SiteMap}/>
       <Route path="/contactus"  component={ContactUs}/>
+      <Route path="/aboutus"  component={AboutUs}/>
       <Redirect to="/" />
     </Switch>
     
