@@ -1,0 +1,21 @@
+.record-btn{
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.return-btn{
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.record-btn:focus{
+    outline: none;
+    box-shadow: none !important;
+}
+
+.return-btn:focus{
+    outline: none;
+    box-shadow: none !important;
+}

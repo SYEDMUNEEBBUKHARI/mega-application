@@ -1,0 +1,113 @@
+.product-data-labels {
+    width: 7%;
+    margin-left: 60px;
+    font-size: 13px;
+}
+
+
+.product-info-labels {
+    width: 9%;
+    margin-left: 47px;
+    font-size: 13px;
+}
+.product-info-input{
+    width: 84% !important;
+    height: 31px !important;
+    border: 1px solid lightgray;
+    padding: 0 7px;
+    border-radius: 5px;
+}
+.product-info-input:focus{
+    outline: none;
+}
+
+
+
+
+.product-resaon-labels {
+    width: 80%;
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+.reason-det .box-category{
+    margin: 0 -12px;
+}
+
+.type-messages{
+    resize: none;
+}
+
+
+
+
+
+.form-check-labels {
+    width: 12% !important;
+    margin-bottom: -21px !important;
+}
+
+.move-back{
+    width: 100px;
+    height: 35px !important;
+    padding: 0 !important;
+    border: none !important;
+    background: gray;
+}
+.let-submit{
+    width: 100px;
+    height: 35px !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+.order-date-labels {
+    width: 8%;
+    margin-left: 52px;
+    font-size: 13px;
+}
+
+.order-date-input{
+    width: 85% !important;
+    height: 31px !important;
+    border: 1px solid lightgray;
+    padding: 0 7px;
+    border-radius: 5px;
+}
+.order-date-input:focus{
+    outline: none;
+}
+
+
+
+
+.product-data-input{
+    width: 85% !important;
+    height: 31px !important;
+    border: 1px solid lightgray;
+    padding: 0 7px;
+    border-radius: 5px;
+}
+.product-data-input:focus{
+    outline: none;
+}
+
+.product-selects {
+    width: 85%;
+    height: 31px;
+    padding: 0 4px;
+    border-color: lightgray;
+    border-radius: 5px;
+}
+
+.product-return .ant-form-item-label label{
+    width: 59% !important;
+    margin-left: 50px !important;
+    font-size: 13px !important;
+}
+
+.product-info-details .top-title{
+    border: 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #e5e5e5;
+}

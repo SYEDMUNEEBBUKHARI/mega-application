@@ -112,13 +112,13 @@ function RegisterForm() {
 			<div className="newsletter">
 				<h5 className="top-title">Newsletter</h5>
 
-			<div className="horizontal-btn">
-			<span className="mr-5" style={{marginLeft: '115px,'}}>Subscribe</span>
-			<Radio.Group onChange={onChange} value={value}>
-				<Radio value={1}>Yes</Radio>
-				<Radio value={2}>No</Radio>
-			</Radio.Group>
-			</div>
+				<div className="horizontal-btn">
+					<span className="mr-5" style={{marginLeft: '115px,'}}>Subscribe</span>
+					<Radio.Group onChange={onChange} value={value}>
+						<Radio value={1}>Yes</Radio>
+						<Radio value={2}>No</Radio>
+					</Radio.Group>
+				</div>
 			</div>
 
 

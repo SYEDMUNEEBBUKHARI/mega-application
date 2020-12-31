@@ -32,7 +32,7 @@ function ViewCart() {
 
             <div className="row">
                 <div id="content" className="col-sm-12">
-                    <h5 class="title">Shopping Cart</h5>
+                    <h5 class="title pb-2">Shopping Cart</h5>
                     <div className="table-responsive form-group">
                         <table className="table table-bordered">
                         <thead>
@@ -53,7 +53,7 @@ function ViewCart() {
                                 </a>
                             </td>
                             <td className="text-left">
-                                <a href="product.html">Emasa rumas gacem</a><br />
+                                <a style={{fontSize: '16px',}}>Emasa rumas gacem</a><br />
                             </td>
                             <td className="text-left">Pt 001</td>
                             <td className="text-left" width="200px"><div className="input-group btn-block quantity">
@@ -72,7 +72,7 @@ function ViewCart() {
                                 </a>
                             </td>
                             <td className="text-left">
-                                <a href="product.html">Emasa rumas gacem</a><br />
+                                <a style={{fontSize: '16px',}}>Emasa rumas gacem</a><br />
                             </td>
                             <td className="text-left">Pt 001</td>
                             <td className="text-left" width="200px"><div className="input-group btn-block quantity">

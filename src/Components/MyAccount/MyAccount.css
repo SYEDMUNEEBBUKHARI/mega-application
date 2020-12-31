@@ -1,0 +1,98 @@
+.my-accounts .title{
+    font-weight: 700;
+}
+.my-accounts .lead{
+    font-size: 17px;
+}
+
+.my-accounts .lead strong{
+    font-weight: bold;
+}
+
+.right-listing .subtitle{
+    font-weight: 700;
+}
+
+.right-listing .list-group .list-item{
+    padding: 0;
+}
+
+.right-listing .list-group .list-item li a{
+    font-size: 15px;
+    color: #555 !important;
+}
+
+legend {
+    border: 0;
+    font-weight: 500;
+    font-size: 20px !important;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.account-horizontal-btn .ant-radio{
+    width: 4% !important;
+}
+
+.account-horizontal-btn .ant-radio-inner{
+    width: 16px !important;
+}
+.account-horizontal-btn .ant-radio-wrapper{
+    margin-right: -390px !important;
+}
+.account-horizontal-btn {
+    margin-left: 25px;
+}
+
+#personal-details .form-group .control-label{
+    margin-bottom: -20px;
+}
+
+#personal-details .form-group .form-control{
+    height: 34px !important;
+    font-size: 12px !important;
+}
+
+#address .form-group .control-label{
+    margin-bottom: -20px;
+}
+
+#address .form-group .form-control{
+    height: 34px !important;
+    font-size: 12px !important;
+}
+
+#shipping-address .form-group .control-label{
+    margin-bottom: -20px;
+}
+
+#shipping-address .form-group .form-control{
+    height: 34px !important;
+    font-size: 12px !important;
+}
+
+.save-btn{
+    width: 100% !important;
+    height: 34px !important;
+    border: none !important;
+    font-size: 13px !important;
+}
+
+.save-btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+#personal-details .ant-input-password{
+    width: 472px !important;
+    height: 34px;
+}
+
+#personal-details .ant-input-password .ant-input{
+    width: 325px;
+    margin: -11px 0;
+}
+
+#personal-details .ant-input-suffix{
+    position: relative;
+    left: 110px;
+}

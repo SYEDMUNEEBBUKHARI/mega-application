@@ -17,7 +17,10 @@ import Faq from "./Components/Faq/Faq";
 import SiteMap from "./Components/SiteMap/SiteMap";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import AboutUs from "./Components/AboutUs/AboutUs";
-
+import MyAccount from "./Components/MyAccount/MyAccount";
+import OrderHistory from "./Components/OrderHistory/OrderHistory";
+import OrderInformation from "./Components/OrderInformation/OrderInformation";
+import ProductReturn from "./Components/ProductReturn/ProductReturn";
 
 function App() {
   return (
@@ -44,6 +47,10 @@ function App() {
       <Route path="/sitemap"  component={SiteMap}/>
       <Route path="/contactus"  component={ContactUs}/>
       <Route path="/aboutus"  component={AboutUs}/>
+      <Route path="/myaccount" component={MyAccount} />
+      <Route path="/orderhistory" component={OrderHistory} />
+      <Route path="/orderinformation" component={OrderInformation} />
+      <Route path="/productreturn" component={ProductReturn} />
       <Redirect to="/" />
     </Switch>
     

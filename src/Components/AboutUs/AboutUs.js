@@ -3,6 +3,11 @@ import './AboutUs.css';
 import { RiHome4Line, RiArrowDropRightLine } from "react-icons/ri";
 import { BsCheck } from "react-icons/bs";
 import About from "../../Assets/images/about-us.jpg";
+import Memberone from "../../Assets/images/cl-image-1.jpg";
+import Membertwo from "../../Assets/images/cl-image-2.jpg";
+import Memberthree from "../../Assets/images/cl-image-3.jpg";
+import Memberfour from "../../Assets/images/cl-image-4.jpg";
+import { RiFacebookLine, RiTwitterLine, RiGoogleFill, RiSkypeFill } from "react-icons/ri";
 
 
 function AboutUs() {
@@ -33,163 +38,156 @@ function AboutUs() {
                     </div>
 
                     <div className="col-md-3">
-                        <div class="title-about-us">
+                        <div className="title-about-us">
                             <h2>Why Choose Us</h2>
                         </div>
-                        <div class="content-why">
-                            <ul class="why-list">
-                                <li><BsCheck /><a className="right-line" title="Shipping &amp; Returns" href="#">Shipping &amp; Returns</a>
+                        <div className="content-why">
+                            <ul className="why-list">
+                                <li><BsCheck /><a className="right-line ml-2" title="Shipping &amp; Returns" href="#">Shipping &amp; Returns</a>
                                 </li>
-                                <li><BsCheck /><a className="right-line" title="Secure Shopping" href="#">Secure Shopping</a>
+                                <li><BsCheck /><a className="right-line ml-2" title="Secure Shopping" href="#">Secure Shopping</a>
                                 </li>
-                                <li><BsCheck /><a className="right-line" title="International Shipping" href="#">International Shipping</a>
+                                <li><BsCheck /><a className="right-line ml-2" title="International Shipping" href="#">International Shipping</a>
                                 </li>
-                                <li><BsCheck /><a className="right-line" title="Affiliates" href="#">Affiliates</a>
+                                <li><BsCheck /><a className="right-line ml-2" title="Affiliates" href="#">Affiliates</a>
                                 </li>
-                                <li><BsCheck /><a className="right-line" title="Group Sales" href="#">Group Sales</a>
+                                <li><BsCheck /><a className="right-line ml-2" title="Group Sales" href="#">Group Sales</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-
-
-
-
-
-
-
-                    <div class="col-md-12 our-member">
-                        <div class="title-about-us">
+                    <div className="col-md-12 our-member">
+                        <div className="title-about-us">
                             <h2>Our Member</h2>
                         </div>
-                        <div class="short-des">Consectetur adipiscing elit. Donec pellentesque venenatis elit, quis aliquet mauris malesuada vel. Donec vitae libero dolor, eget dapibus justo.
+                        <div className="short-des">Consectetur adipiscing elit. Donec pellentesque venenatis elit, quis aliquet mauris malesuada vel. Donec vitae libero dolor, eget dapibus justo.
                             <br />Aenean facilisis aliquet feugiat. Suspendisse lacinia congue est ac semper. Nulla ut elit magna, vitae volutpat magna.</div>
-                        <div class="overflow-owl-slider1">
-                            <div class="wrapper-owl-slider1">
-                                <div class="row slider-ourmember">
-                                    <div class="item-about col-lg-6 col-md-6 col-sm-6">
-                                        <div class="item respl-item">
-                                            <div class="item-inner">
-                                                <div class="w-image-box">
-                                                    <div class="item-image">
+                        <div className="overflow-owl-slider1">
+                            <div className="wrapper-owl-slider1">
+                                <div className="row slider-ourmember">
+                                    <div className="item-about col-lg-6 col-md-6 col-sm-6">
+                                        <div className="item respl-item">
+                                            <div className="item-inner">
+                                                <div className="w-image-box">
+                                                    <div className="item-image">
                                                         <a title="Jennifer lawrence" href="#">
-                                                            <img src="image/catalog/about/cl-image-1.jpg" alt="Image Client"/>
+                                                            <img src={Memberone} alt="Image Client"/>
                                                         </a>
                                                     </div>
                                                 </div>
-                                                <div class="info-member">
-                                                    <h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
-                                                    <p class="cl-job">Art Director</p>
-                                                    <p class="cl-des">Donec dignissim, enim ac semper tempus, ligula neque pulvinar mi, sed facilisis arcu placerat consequat</p>
+                                                <div className="info-member">
+                                                    <h2 className="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+                                                    <p className="cl-job">Art Director</p>
+                                                    <p className="cl-des">Donec dignissim, enim ac semper tempus, ligula neque pulvinar mi, sed facilisis arcu placerat consequat</p>
                                                     <ul>
                                                         <li>
-                                                            <a class="fa fa-f" title="Facebook" href="#"></a>
+                                                            <a className="fa"><RiFacebookLine /></a>
                                                         </li>
                                                         <li>
-                                                            <a class="fa fa-t" title="Twitter" href="#"></a>
+                                                            <a className="fa"><RiTwitterLine /></a>
                                                         </li>
                                                         <li>
-                                                            <a class="fa fa-g" title="google" href="#"></a>
+                                                            <a className="fa"><RiGoogleFill /></a>
                                                         </li>
                                                         <li>
-                                                            <a class="fa fa-s" title="skyper" href="#"></a>
+                                                            <a className="fa"><RiSkypeFill /></a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="item-about col-lg-6 col-md-6 col-sm-6">
-                                        <div class="item respl-item">
-                                            <div class="item-inner">
-                                                <div class="w-image-box">
-                                                    <div class="item-image">
+                                    <div className="item-about col-lg-6 col-md-6 col-sm-6">
+                                        <div className="item respl-item">
+                                            <div className="item-inner">
+                                                <div className="w-image-box">
+                                                    <div className="item-image">
                                                         <a title="Jennifer lawrence" href="#">
-                                                            <img src="image/catalog/about/cl-image-2.jpg" alt="Image Client"/>
+                                                            <img src={Membertwo} alt="Image Client"/>
                                                         </a>
                                                     </div>
                                                 </div>
-                                                <div class="info-member">
-                                                    <h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
-                                                    <p class="cl-job">Design Leader</p>
-                                                    <p class="cl-des">Donec dignissim, enim ac semper tempus, ligula neque pulvinar mi, sed facilisis arcu placerat consequat</p>
+                                                <div className="info-member">
+                                                    <h2 className="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+                                                    <p className="cl-job">Design Leader</p>
+                                                    <p className="cl-des">Donec dignissim, enim ac semper tempus, ligula neque pulvinar mi, sed facilisis arcu placerat consequat</p>
                                                     <ul>
                                                         <li>
-                                                            <a class="fa fa-f" title="Facebook" href="#"></a>
+                                                            <a className="fa"><RiFacebookLine /></a>
                                                         </li>
                                                         <li>
-                                                            <a class="fa fa-t" title="Twitter" href="#"></a>
+                                                            <a className="fa"><RiTwitterLine /></a>
                                                         </li>
                                                         <li>
-                                                            <a class="fa fa-g" title="google" href="#"></a>
+                                                            <a className="fa"><RiGoogleFill /></a>
                                                         </li>
                                                         <li>
-                                                            <a class="fa fa-s" title="skyper" href="#"></a>
+                                                            <a className="fa"><RiSkypeFill /></a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="item-about col-lg-6 col-md-6 col-sm-6">
-                                        <div class="item respl-item">
-                                            <div class="item-inner">
-                                                <div class="w-image-box">
-                                                    <div class="item-image">
+                                    <div className="item-about col-lg-6 col-md-6 col-sm-6">
+                                        <div className="item respl-item">
+                                            <div className="item-inner">
+                                                <div className="w-image-box">
+                                                    <div className="item-image">
                                                         <a title="Jennifer lawrence" href="#">
-                                                            <img src="image/catalog/about/cl-image-3.jpg" alt="Image Client"/>
+                                                            <img src={Memberthree} alt="Image Client"/>
                                                         </a>
                                                     </div>
                                                 </div>
-                                                <div class="info-member">
-                                                    <h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
-                                                    <p class="cl-job">Tech Leader</p>
-                                                    <p class="cl-des">Donec dignissim, enim ac semper tempus, ligula neque pulvinar mi, sed facilisis arcu placerat consequat</p>
+                                                <div className="info-member">
+                                                    <h2 className="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+                                                    <p className="cl-job">Tech Leader</p>
+                                                    <p className="cl-des">Donec dignissim, enim ac semper tempus, ligula neque pulvinar mi, sed facilisis arcu placerat consequat</p>
                                                     <ul>
                                                         <li>
-                                                            <a class="fa fa-f" title="Facebook" href="#"></a>
+                                                            <a className="fa"><RiFacebookLine /></a>
                                                         </li>
                                                         <li>
-                                                            <a class="fa fa-t" title="Twitter" href="#"></a>
+                                                            <a className="fa"><RiTwitterLine /></a>
                                                         </li>
                                                         <li>
-                                                            <a class="fa fa-g" title="google" href="#"></a>
+                                                            <a className="fa"><RiGoogleFill /></a>
                                                         </li>
                                                         <li>
-                                                            <a class="fa fa-s" title="skyper" href="#"></a>
+                                                            <a className="fa"><RiSkypeFill /></a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="item-about col-lg-6 col-md-6 col-sm-6">
-                                        <div class="item respl-item">
-                                            <div class="item-inner">
-                                                <div class="w-image-box">
-                                                    <div class="item-image">
+                                    <div className="item-about col-lg-6 col-md-6 col-sm-6">
+                                        <div className="item respl-item">
+                                            <div className="item-inner">
+                                                <div className="w-image-box">
+                                                    <div className="item-image">
                                                         <a title="Jennifer lawrence" href="#">
-                                                            <img src="image/catalog/about/cl-image-4.jpg" alt="Image Client"/>
+                                                            <img src={Memberfour} alt="Image Client"/>
                                                         </a>
                                                     </div>
                                                 </div>
-                                                <div class="info-member">
-                                                    <h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
-                                                    <p class="cl-job">Manager</p>
-                                                    <p class="cl-des">Donec dignissim, enim ac semper tempus, ligula neque pulvinar mi, sed facilisis arcu placerat consequat</p>
+                                                <div className="info-member">
+                                                    <h2 className="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+                                                    <p className="cl-job">Manager</p>
+                                                    <p className="cl-des">Donec dignissim, enim ac semper tempus, ligula neque pulvinar mi, sed facilisis arcu placerat consequat</p>
                                                     <ul>
                                                         <li>
-                                                            <a class="fa fa-f" title="Facebook" href="#"></a>
+                                                            <a className="fa"><RiFacebookLine /></a>
                                                         </li>
                                                         <li>
-                                                            <a class="fa fa-t" title="Twitter" href="#"></a>
+                                                            <a className="fa"><RiTwitterLine /></a>
                                                         </li>
                                                         <li>
-                                                            <a class="fa fa-g" title="google" href="#"></a>
+                                                            <a className="fa"><RiGoogleFill /></a>
                                                         </li>
                                                         <li>
-                                                            <a class="fa fa-s" title="skyper" href="#"></a>
+                                                            <a className="fa"><RiSkypeFill /></a>
                                                         </li>
                                                     </ul>
                                                 </div>

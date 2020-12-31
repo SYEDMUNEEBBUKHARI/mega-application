@@ -67,8 +67,12 @@
     text-align: left;
     margin-left: 185px;
 }
+.info-member ul{
+    margin-left: -39px;
+}
 .our-member .respl-item .info-member .cl-name {
-    margin-top: 0;
+    margin-top: -12px;
+    margin-bottom: -7px;
 }
 .our-member .respl-item .info-member .cl-name > a {
     font-size: 15px;
@@ -78,10 +82,12 @@
 }
 .our-member .respl-item .info-member .cl-job {
     padding: 5px 0px;
+    font-size: 12px;
     text-transform: uppercase;
 }
 .our-member .respl-item .info-member .cl-des {
     color: #909090;
+    font-size: 13px;
     margin-bottom: 15px;
 }
 .our-member .respl-item .info-member li {
@@ -91,7 +97,7 @@
     width: 29px;
     height: 29px;
     border: 1px solid #999;
-    line-height: 27px;
+    line-height: 23px;
     text-align: center;
     color: #999;
     border-radius: 50%;

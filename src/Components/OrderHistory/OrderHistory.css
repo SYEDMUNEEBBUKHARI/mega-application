@@ -1,0 +1,29 @@
+.order-img-thumbnail{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all .2s ease-in-out;
+}
+.on-next-view{
+    width: 85%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    background: #0b1842;
+}
+
+.on-next-view:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.on-next-view svg{
+    color: white;
+    font-size: 18px;
+}
