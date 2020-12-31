@@ -78,10 +78,22 @@
 }
 .continues{
     width: 10% !important;
-    height: 36px !important;
+    height: 35px !important;
     padding: 0 !important;
     font-size: 14px !important;
 }
 .horizontal-btn {
     margin-left: 111px;
+}
+
+.p-right .ant-checkbox span{
+    margin-left: 24px !important;
+}
+
+.reading-btm{
+    font-size: 14px !important;
+}
+
+.pricing-btm{
+    font-size: 13px !important;
 }

@@ -124,9 +124,9 @@ function RegisterForm() {
 
 			<div class="box">
 				<div className="p-right">
-				<Checkbox onChange={onChange}>I have read and agree to the<a href="#" class="agree"><b>Pricing Tables</b></a> </Checkbox>
-				<input type="submit" value="Continue" class="btn btn-primary continues" />
-			</div>
+				<Checkbox onChange={onChange}><span className="reading-btm">I have read and agree to the </span><a href="#" class="agree"><b className="pricing-btm" >Pricing Tables</b></a> </Checkbox>
+				<button type="submit" class="btn btn-primary continues">Continue</button>
+				</div>
 			</div>
 			</div>
 		</div>

@@ -21,6 +21,7 @@ import MyAccount from "./Components/MyAccount/MyAccount";
 import OrderHistory from "./Components/OrderHistory/OrderHistory";
 import OrderInformation from "./Components/OrderInformation/OrderInformation";
 import ProductReturn from "./Components/ProductReturn/ProductReturn";
+import GiftVoucher from "./Components/GiftVoucher/GiftVoucher";
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
       <Route path="/orderhistory" component={OrderHistory} />
       <Route path="/orderinformation" component={OrderInformation} />
       <Route path="/productreturn" component={ProductReturn} />
+      <Route path="/giftvoucher" component={GiftVoucher} />
       <Redirect to="/" />
     </Switch>
     
