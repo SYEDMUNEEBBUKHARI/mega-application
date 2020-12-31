@@ -1,0 +1,13 @@
+.product-comparison .comparison-title{
+    font-weight: 700;
+}
+.product-comparison .btn-block{
+    height: 35px;
+    padding: 5px !important;
+    border: none !important;
+}
+
+.product-comparison .btn-block:focus{
+    outline: none;
+    box-shadow: none !important;
+}

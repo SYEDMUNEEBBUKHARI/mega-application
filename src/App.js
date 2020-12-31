@@ -22,6 +22,10 @@ import OrderHistory from "./Components/OrderHistory/OrderHistory";
 import OrderInformation from "./Components/OrderInformation/OrderInformation";
 import ProductReturn from "./Components/ProductReturn/ProductReturn";
 import GiftVoucher from "./Components/GiftVoucher/GiftVoucher";
+import ProductComparison from "./Components/ProductComparison/ProductComparison";
+import WishList from "./Components/WishList/WishList";
+
+
 
 function App() {
   return (
@@ -53,6 +57,8 @@ function App() {
       <Route path="/orderinformation" component={OrderInformation} />
       <Route path="/productreturn" component={ProductReturn} />
       <Route path="/giftvoucher" component={GiftVoucher} />
+      <Route path="/productcomparison" component={ProductComparison} />
+      <Route path="/wishlist" component={WishList} />
       <Redirect to="/" />
     </Switch>
     
