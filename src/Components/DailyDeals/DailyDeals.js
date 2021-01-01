@@ -11,7 +11,10 @@ import { GrCart } from "react-icons/gr";
 import { GoHeart } from "react-icons/go";
 import { RiRefreshLine } from "react-icons/ri";
 import { RiEyeLine } from "react-icons/ri";
-
+import { Tag } from 'antd';
+import { BiShoppingBag, BiHeart } from "react-icons/bi";
+import {FiRefreshCcw} from "react-icons/fi"
+import { BsEye } from "react-icons/bs";
 
 
 
@@ -37,14 +40,19 @@ const breakPoints = [
                 <h3 class="modtitle"><span style={{color: 'white',}} className="daily-deals">Daily Deals</span></h3>
                 <Carousel className="daily-deals-slider" style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPoints}>
                     <div className="row outline">
-                        <div className="item-left col-lg-6 col-md-5 col-sm-5 col-xs-12">
-                        <div className="side-menu" id="sidenav">
-                            <a href="#" id="about">Add to Cart    <GrCart className="cart" /></a>
-                            <a href="#" id="blog">Add to Wish List <GoHeart className="heart" /></a>
-                            <a href="#" id="projects">Projects <RiRefreshLine className="refresh"/></a>
-                            <a href="#" id="contact">Contact<RiEyeLine className="eye"/></a>
-                        </div>
-                            <img src={product1} alt=""/>
+                        <div className="item-left col-lg-6 col-md-5 col-sm-5 col-xs-12 profile">
+                            <div class="img-box">
+                                <div className="tag-right">
+                                    <Tag color="#f50">-22%</Tag>
+                                </div>
+                                <img src={product1} class="img-responsive" />
+                                <ul class="text-center">
+                                <a href="#"><li><BiShoppingBag /></li></a>
+                                <a href="#"><li><BiHeart /></li></a>
+                                <a href="#"><li><FiRefreshCcw /></li></a>
+                                <a href="#"><li><BsEye /></li></a>
+                                </ul>
+                            </div>
                         </div>
                         <div className="item-right col-lg-6 col-md-7 col-sm-7 col-xs-12">
                             <div className="inner-cart">
@@ -92,14 +100,19 @@ const breakPoints = [
                     </div>
 
                     <div className="row outline">
-                        <div className="item-left col-lg-6 col-md-5 col-sm-5 col-xs-12">
-                        <div className="side-menu" id="sidenav">
-                            <a href="#" id="about">Add to Cart    <GrCart className="cart" /></a>
-                            <a href="#" id="blog">Add to Wish List <GoHeart className="heart" /></a>
-                            <a href="#" id="projects">Projects <RiRefreshLine className="refresh"/></a>
-                            <a href="#" id="contact">Contact<RiEyeLine className="eye"/></a>
-                        </div>
-                            <img src={prdouct2} alt=""/>
+                        <div className="item-left col-lg-6 col-md-5 col-sm-5 col-xs-12 profile">
+                            <div class="img-box">
+                            <div className="tag-right">
+                                <Tag color="#f50">-10%</Tag>
+                            </div>
+                                <img src={product1} class="img-responsive" />
+                                <ul class="text-center">
+                                <a href="#"><li><BiShoppingBag /></li></a>
+                                <a href="#"><li><BiHeart /></li></a>
+                                <a href="#"><li><FiRefreshCcw /></li></a>
+                                <a href="#"><li><BsEye /></li></a>
+                                </ul>
+                            </div>
                         </div>
                         <div className="item-right col-lg-6 col-md-7 col-sm-7 col-xs-12">
                         <div className="inner-cart">
@@ -147,14 +160,19 @@ const breakPoints = [
                     </div>
 
                     <div className="row outline">
-                        <div className="item-left col-lg-6 col-md-5 col-sm-5 col-xs-12">
-                        <div className="side-menu" id="sidenav">
-                            <a href="#" id="about">Add to Cart    <GrCart className="cart" /></a>
-                            <a href="#" id="blog">Add to Wish List <GoHeart className="heart" /></a>
-                            <a href="#" id="projects">Projects <RiRefreshLine className="refresh"/></a>
-                            <a href="#" id="contact">Contact<RiEyeLine className="eye"/></a>
-                        </div>
-                            <img src={product3} alt=""/>
+                    <div className="item-left col-lg-6 col-md-5 col-sm-5 col-xs-12 profile">
+                            <div class="img-box">
+                            <div className="tag-right">
+                                <Tag color="#f50">-30%</Tag>
+                            </div>
+                                <img src={product3} class="img-responsive" />
+                                <ul class="text-center">
+                                <a href="#"><li><BiShoppingBag /></li></a>
+                                <a href="#"><li><BiHeart /></li></a>
+                                <a href="#"><li><FiRefreshCcw /></li></a>
+                                <a href="#"><li><BsEye /></li></a>
+                                </ul>
+                            </div>
                         </div>
                         <div className="item-right col-lg-6 col-md-7 col-sm-7 col-xs-12">
                         <div className="inner-cart">
@@ -202,14 +220,19 @@ const breakPoints = [
                     </div>
 
                     <div className="row outline">
-                        <div className="item-left col-lg-6 col-md-5 col-sm-5 col-xs-12">
-                        <div className="side-menu" id="sidenav">
-                            <a href="#" id="about">Add to Cart    <GrCart className="cart" /></a>
-                            <a href="#" id="blog">Add to Wish List <GoHeart className="heart" /></a>
-                            <a href="#" id="projects">Projects <RiRefreshLine className="refresh"/></a>
-                            <a href="#" id="contact">Contact<RiEyeLine className="eye"/></a>
-                        </div>
-                            <img src={product4} alt=""/>
+                        <div className="item-left col-lg-6 col-md-5 col-sm-5 col-xs-12 profile">
+                            <div class="img-box">
+                            <div className="tag-right">
+                                <Tag color="#f50">-60%</Tag>
+                            </div>
+                                <img src={product4} class="img-responsive" />
+                                <ul class="text-center">
+                                <a href="#"><li><BiShoppingBag /></li></a>
+                                <a href="#"><li><BiHeart /></li></a>
+                                <a href="#"><li><FiRefreshCcw /></li></a>
+                                <a href="#"><li><BsEye /></li></a>
+                                </ul>
+                            </div>
                         </div>
                         <div className="item-right col-lg-6 col-md-7 col-sm-7 col-xs-12">
                         <div className="inner-cart">
