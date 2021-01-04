@@ -28,7 +28,7 @@ console.log("windows",windows);
       <Menu className="adjust-ant"  mode="horizontal" defaultSelectedKeys={['2']} >
        <Menu.Item key="1">
        <NavLink className="cstm-clr" activeClassName="nextclr" to="/"  > HOME<BsFillCaretDownFill />
-          <div className="mega-menu">
+          <div className="mega-menu home-mega-menus">
           <div className="content">
                 <div className="col">
                   <section>
@@ -85,7 +85,7 @@ console.log("windows",windows);
        
           <Menu.Item key="2">
           <NavLink className="cstm-clr" activeClassName="nextclr" to="/blog"  >FEATURES<BsFillCaretDownFill />
-        <div className="mega-menu">
+        <div className="mega-menu feature-mega-menus">
           <div className="content">
                 <div className="col">
                   <section>

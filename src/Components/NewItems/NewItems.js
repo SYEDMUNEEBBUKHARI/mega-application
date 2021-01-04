@@ -4,7 +4,9 @@ import pastrami from "../../Assets/images/1.jpg";
 import Carousel from "react-elastic-carousel";
 import towel from "../../Assets/images/towel.jpg";
 import { Tabs, Card } from 'antd';
-
+import { BiShoppingBag, BiHeart } from "react-icons/bi";
+import {FiRefreshCcw} from "react-icons/fi"
+import { BsEye } from "react-icons/bs";
 
 
 const { TabPane } = Tabs;
@@ -29,7 +31,7 @@ function NewItems() {
                     <TabPane tab="Bedroom" key="1">
                     <Carousel className="items-slider" style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPointsTabs}>
                     <div className="row outline ml-3">
-                    <div className="item-left">
+                        <div className="item-left">
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
@@ -37,82 +39,136 @@ function NewItems() {
                         >
                             <div className="hoverable-draw">
                                 <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
 
-                    </Card>,
-                    
-                        
-                        </div>
-
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                            >
-                                <div className="hoverable-draw">
-                                    <div className="overlay">
-                                        <a href="#" className="icon" title="User Profile">
-                                        <img className="hover-image" src={towel} alt=""/>
-                                        </a>
                                     </div>
                                 </div>
+                            </div>
+                            
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
-                    </Card>,
-                        </div>
-                        
+
+                        </Card>,
                     </div>
 
-                    <div className="row outline ml-3">
                         <div className="item-left">
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
                             cover={ <img className="image" src={pastrami} alt=""/>}
-                            >
-                                <div className="hoverable-draw">
-                                    <div className="overlay">
-                                        <a href="#" className="icon" title="User Profile">
-                                        <img className="hover-image" src={towel} alt=""/>
-                                        </a>
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
                     </Card>,
                         </div>
+                        
+                    </div>
 
+                    <div className="row outline ml-3">
                         <div className="item-left">
                         <Card
                             hoverable
                             style={{ width: '205px',backgroundColor: '#f7f7f7', }}
                             cover={ <img className="image" src={pastrami} alt=""/>}
-                            >
-                                <div className="hoverable-draw">
-                                    <div className="overlay">
-                                        <a href="#" className="icon" title="User Profile">
-                                        <img className="hover-image" src={towel} alt=""/>
-                                        </a>
+                        >
+
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
+                            </div>
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
                     </Card>,
                         </div>
-                        
-                    </div>
 
-                    <div className="row outline ml-3">
                         <div className="item-left">
                         <Card
                             hoverable
@@ -121,91 +177,83 @@ function NewItems() {
                         >
                             <div className="hoverable-draw">
                                 <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                    </div>
-
-                    <div className="row outline ml-3">
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        
-                    </div>
-
-                    <div className="row outline ml-3">
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                            >
-                                <div className="hoverable-draw">
-                                    <div className="overlay">
-                                        <a href="#" className="icon" title="User Profile">
-                                        <img className="hover-image" src={towel} alt=""/>
-                                        </a>
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -220,9 +268,34 @@ function NewItems() {
                         >
                             <div className="hoverable-draw">
                                 <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
                                 </div>
                             </div>
                         <Meta title="Europe Street beat" description="$42.00"
@@ -241,9 +314,124 @@ function NewItems() {
                         >
                             <div className="hoverable-draw">
                                 <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
                                 </div>
                             </div>
                         <Meta title="Europe Street beat" description="$42.00"
@@ -260,9 +448,34 @@ function NewItems() {
                         >
                             <div className="hoverable-draw">
                                 <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
                                 </div>
                             </div>
                         <Meta title="Europe Street beat" description="$42.00"
@@ -281,9 +494,124 @@ function NewItems() {
                         >
                             <div className="hoverable-draw">
                                 <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
                                 </div>
                             </div>
                         <Meta title="Europe Street beat" description="$42.00"
@@ -300,9 +628,34 @@ function NewItems() {
                         >
                             <div className="hoverable-draw">
                                 <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
                                 </div>
                             </div>
                         <Meta title="Europe Street beat" description="$42.00"
@@ -312,55 +665,10 @@ function NewItems() {
                         </div>
                         
                     </div>
-
-                
                 </Carousel>
                     </TabPane>
                     <TabPane tab="Decor" key="2">
-                    <Carousel style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPointsTabs}>
-                    <div className="row outline ml-3">
-                    <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                    
-                        
-                        </div>
-
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        
-                    </div>
-
+                    <Carousel className="items-slider" style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPointsTabs}>
                     <div className="row outline ml-3">
                         <div className="item-left">
                         <Card
@@ -370,119 +678,45 @@ function NewItems() {
                         >
                             <div className="hoverable-draw">
                                 <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
 
-                    </Card>,
-                        </div>
-
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        
-                    </div>
-
-                    <div className="row outline ml-3">
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                    </div>
-
-                    <div className="row outline ml-3">
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                            >
-                                <div className="hoverable-draw">
-                                    <div className="overlay">
-                                        <a href="#" className="icon" title="User Profile">
-                                        <img className="hover-image" src={towel} alt=""/>
-                                        </a>
                                     </div>
                                 </div>
+                            </div>
+                            
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
-                    </Card>,
-                        </div>
-                        
+
+                        </Card>,
                     </div>
 
-                    <div className="row outline ml-3">
                         <div className="item-left">
                         <Card
                             hoverable
@@ -491,110 +725,578 @@ function NewItems() {
                         >
                             <div className="hoverable-draw">
                                 <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                    </div>
-
-                    <div className="row outline ml-3">
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                    </div>
-
-                    <div className="row outline ml-3">
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                            >
-                                <div className="hoverable-draw">
-                                    <div className="overlay">
-                                        <a href="#" className="icon" title="User Profile">
-                                        <img className="hover-image" src={towel} alt=""/>
-                                        </a>
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -607,50 +1309,7 @@ function NewItems() {
                 </Carousel>
                     </TabPane>
                     <TabPane tab="Furniture" key="3">
-                    <Carousel style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPointsTabs}>
-                    <div className="row outline ml-3">
-                    <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                    
-                        
-                        </div>
-
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        
-                    </div>
-
+                    <Carousel className="items-slider" style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPointsTabs}>
                     <div className="row outline ml-3">
                         <div className="item-left">
                         <Card
@@ -660,39 +1319,45 @@ function NewItems() {
                         >
                             <div className="hoverable-draw">
                                 <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
 
-                    </Card>,
-                        </div>
-
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                            >
-                                <div className="hoverable-draw">
-                                    <div className="overlay">
-                                        <a href="#" className="icon" title="User Profile">
-                                        <img className="hover-image" src={towel} alt=""/>
-                                        </a>
                                     </div>
                                 </div>
+                            </div>
+                            
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
-                    </Card>,
-                        </div>
-                        
+
+                        </Card>,
                     </div>
 
-                    <div className="row outline ml-3">
                         <div className="item-left">
                         <Card
                             hoverable
@@ -701,131 +1366,174 @@ function NewItems() {
                         >
                             <div className="hoverable-draw">
                                 <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                    </div>
-
-                    <div className="row outline ml-3">
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        
-                    </div>
-
-                    <div className="row outline ml-3">
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                        
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                        >
-                            <div className="hoverable-draw">
-                                <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        <Meta title="Europe Street beat" description="$42.00"
-                         />
-
-                    </Card>,
-                        </div>
-                    </div>
-
-                    <div className="row outline ml-3">
-                        <div className="item-left">
-                        <Card
-                            hoverable
-                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
-                            cover={ <img className="image" src={pastrami} alt=""/>}
-                            >
-                                <div className="hoverable-draw">
-                                    <div className="overlay">
-                                        <a href="#" className="icon" title="User Profile">
-                                        <img className="hover-image" src={towel} alt=""/>
-                                        </a>
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
                         <Meta title="Europe Street beat" description="$42.00"
                          />
 
@@ -840,9 +1548,34 @@ function NewItems() {
                         >
                             <div className="hoverable-draw">
                                 <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
                                 </div>
                             </div>
                         <Meta title="Europe Street beat" description="$42.00"
@@ -861,9 +1594,304 @@ function NewItems() {
                         >
                             <div className="hoverable-draw">
                                 <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                        
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                            </div>
+                        <Meta title="Europe Street beat" description="$42.00"
+                         />
+
+                    </Card>,
+                        </div>
+                    </div>
+
+                    <div className="row outline ml-3">
+                        <div className="item-left">
+                        <Card
+                            hoverable
+                            style={{ width: '205px',backgroundColor: '#f7f7f7', }}
+                            cover={ <img className="image" src={pastrami} alt=""/>}
+                        >
+                            <div className="hoverable-draw">
+                                <div className="overlay">
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
                                 </div>
                             </div>
                         <Meta title="Europe Street beat" description="$42.00"
@@ -880,9 +1908,34 @@ function NewItems() {
                         >
                             <div className="hoverable-draw">
                                 <div className="overlay">
-                                    <a href="#" className="icon" title="User Profile">
-                                    <img className="hover-image" src={towel} alt=""/>
-                                    </a>
+                                    <div className="profile">
+                                        <div class="img-box">
+                                            <img className="trend-hover-image" src={towel} alt=""/>                                  
+                                            <ul class="text-center">
+                                            <a href="#"><li><BiShoppingBag /></li></a>
+                                            <a href="#"><li><BiHeart /></li></a>
+                                            <a href="#"><li><FiRefreshCcw /></li></a>
+                                            <a href="#"><li><BsEye /></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="rating">
+                                <div className="rating-upper" style={{width: '0%',}}>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div className="rating-lower">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
                                 </div>
                             </div>
                         <Meta title="Europe Street beat" description="$42.00"
@@ -892,7 +1945,6 @@ function NewItems() {
                         </div>
                         
                     </div>
-
                 
                 </Carousel>
                     </TabPane>

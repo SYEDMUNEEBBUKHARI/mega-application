@@ -145,14 +145,14 @@ a:hover {
 }
 .content .col .img-wrapper:hover img {
   transform: scale(1.1);
-  border: 20px double transparent
-
+  border: 20px double transparent;
 }
+
 .content .col h2 {
-    color: #00A29E ;
-  font-size: 1.2rem;
-  line-height: 3rem;
-  font-weight: bold;
+    color: #00A29E;
+    font-size: 16px;
+    line-height: 1rem;
+    font-weight: bold;
 }
 .content .col p {
   line-height: 1.2rem;
@@ -289,9 +289,7 @@ li.ant-menu-item:hover .mega-menu {
   background-color: rgb(199, 199, 199);
 }
 
-.logo{
- 
-}
+
 
 adjust-ant{
   background-color: rgb(255, 255, 255) !important;
@@ -362,4 +360,19 @@ header.ant-layout-header {
 
 .category-menus{
   left: -398px !important;
+}
+
+
+
+
+
+
+/* media quries */
+@media screen and (max-width: 1200px){
+  .feature-mega-menus{
+    left: -184px !important;
+  }
+  .home-mega-menus{
+    left: -89px !important;
+  }
 }

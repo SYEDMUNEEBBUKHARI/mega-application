@@ -19,3 +19,25 @@
 .items-slider .rec-pagination{
   display: none !important;
 }
+
+.items-slider .rec-arrow-left{
+  position: relative;
+  right: -13px;
+  top: -13px;
+  font-size: 16px;
+  width: 26px;
+  height: 31px;
+  min-width: 31px;
+  line-height: 31px;
+}
+
+.items-slider .rec-arrow-right{
+  position: relative;
+  right: 20px;
+  top: -13px;
+  font-size: 16px;
+  width: 26px;
+  height: 31px;
+  min-width: 31px;
+  line-height: 31px;
+}

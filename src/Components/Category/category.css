@@ -691,3 +691,26 @@ font-size:19px;
 .cart_product_name{
     font-size: 15px !important;
 }
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    .loginorregister {
+        position: absolute;
+        right: 0;
+    }
+    .flex-refresh, .flex-refresh-heart{
+        display: none !important;
+    }
+
+    .ant-dropdown-menu{
+        margin-left: -175px !important;
+    }
+    .shopping{
+        position: absolute;
+        left: -60px;
+    }
+
+}
