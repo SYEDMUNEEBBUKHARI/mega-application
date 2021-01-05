@@ -144,8 +144,8 @@ return(
 
     
     <div className="make-flex handleallflex">
-<div className={windows>850 ? "flex-refresh":"hide"}><FiRefreshCcw className="icon-refresh" /></div>
-<div className={windows>850 ? "flex-refresh-heart":"hide"}><ImHeart className="icon-refresh" /></div>
+<div className="flex-refresh"><FiRefreshCcw className="icon-refresh" /></div>
+<div className="flex-refresh-heart"><ImHeart className="icon-refresh" /></div>
 <div className="shopping">
   <Dropdown overlay={menu} placement="bottomCenter">
     <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>

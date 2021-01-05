@@ -113,7 +113,9 @@ header.ant-layout-header {
 
 
 
-@media(min-width: 1441px) and (max-width: 2560px){
-  
-  
+@media screen and (max-width: 767px){
+    .toggle-flex{
+        position: absolute;
+        top: -59px;
+    }
 }

@@ -376,3 +376,11 @@ header.ant-layout-header {
     left: -89px !important;
   }
 }
+
+@media screen and (max-width: 767px){
+  header.ant-layout-header {
+    width: 0 !important;
+    position: inherit !important;
+    left: 0 !important;
+  }
+}

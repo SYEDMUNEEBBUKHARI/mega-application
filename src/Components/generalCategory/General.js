@@ -50,7 +50,7 @@ return(
 <>
 
 <div className="makeflex">
-   <div>{ windows>850?  <>
+   <div>{ windows>767?  <>
    <div className="categories text-center" onClick={handleCategory}>
      <span className="category-position"> <HiShoppingCart className="cate-icons" />All Categories {chevron ? chevup : chevdown}</span></div>
 
