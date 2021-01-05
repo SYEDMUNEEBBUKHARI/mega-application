@@ -9,6 +9,7 @@
     bottom: -52px;
     font-size: 16px;
     font-weight: 700;
+    color: white;
   }
   .new-title{
     display: inline-block;
@@ -40,4 +41,23 @@
   height: 31px;
   min-width: 31px;
   line-height: 31px;
+}
+.left-full .ant-card-body{
+  margin-top: 319px;
+}
+.left-full .img-box{
+  margin-top: -321px;
+}
+.ant-card-meta-detail > div:not(:last-child){
+  font-size: 13px;
+}
+.rating-lower span{
+  font-size: 19px !important;
+}
+
+.right-new-items .img-box ul li{
+    width: 25px;
+    height: 25px;
+    margin: 1px;
+    padding: 2px;
 }

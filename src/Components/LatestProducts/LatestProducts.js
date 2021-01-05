@@ -239,7 +239,7 @@ function LatestProducts() {
 
 
 
-                <h5 class="modtitle"><span className="latest-products">Latest Bolgs</span></h5>
+                <h5 class="modtitle"><span className="latest-products">Latest Blogs</span></h5>
                 <Carousel className="latest-products" style={{paddingTop: '10px', position: 'relative',}} breakPoints={breakPoints}>
                         <div className="row outline no-gutters">
                             <div className="item-left">

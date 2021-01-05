@@ -160,3 +160,7 @@
     min-width: 31px;
     line-height: 31px;
 }
+
+.ant-tabs-nav-wrap .ant-tabs-nav-list{
+  transform: translate(400px, 0) !important;
+}
