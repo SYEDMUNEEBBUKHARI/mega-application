@@ -32,11 +32,11 @@ function App() {
    <>
    
   <BrowserRouter>
-  {/* <Topheader /> */}
+  <Topheader /> 
   <div className="makeflex-head">
-  {/* <General />
+  <General />
   <Navbar />
- <Category /> */}
+ <Category />
   </div>
   
     <Switch>
